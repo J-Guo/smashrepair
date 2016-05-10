@@ -28,6 +28,8 @@ require 'admin/db/connections.php';
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Disable Mobile Zoom for Input Field-->
     <style>
         input[type='text'],
         input[type='number'],
@@ -199,10 +201,12 @@ require 'admin/db/connections.php';
                     <div class="row">
                         <div class="form-group col-md-4">
                             <input class="form-control" style="margin-top: 20px; margin-bottom: 20px;"
+                                   value="<?php echo isset($_SESSION['oldname'])? $_SESSION['oldname']:"" ?>"
                                    name="username" id="username" placeholder="Full Name" type="text" required>
                         </div>
                         <div class="form-group col-md-4">
                             <input class="form-control" style="margin-top: 20px; margin-bottom: 20px;"
+                                   value="<?php echo isset($_SESSION['oldmobile'])? $_SESSION['oldmobile']:"" ?>"
                                    name="mobile" id="mobile" placeholder="Phone Number" type="tel" required>
                         </div>
                         <div class="form-group col-md-4" style="margin-top: 20px; margin-bottom: 20px;">
@@ -213,7 +217,6 @@ require 'admin/db/connections.php';
                     <div class="alert alert-danger col-md-12 text-center" role="alert">
                         <?php
                         echo $_SESSION['error'];
-//                        unset($_SESSION['error']);
                         ?>
                     </div>
                     <?php } ?>
@@ -486,11 +489,10 @@ require 'admin/db/connections.php';
 <!-- Show User Modal Based on Feedback Message-->
 <?php if(isset($_SESSION['message'])) {?>
     <script type="text/javascript"> $('#appointmentModal').modal('show'); </script>
-<!--    --><?php //unset($_SESSION['message']); ?>
 <?php }?>
 
+<!-- Terminate the Session -->
 <?php
-// terminate the session
 session_destroy();
 ?>
 
