@@ -46,7 +46,7 @@ require 'admin/db/connections.php';
     <div class="exc-navbar">
         <div class="container">
             <div class="exc-brand">
-                <a class="exc-logo" href="index.html"><img src="images/logo.png" alt="Auto Love" /></a>
+                <a class="exc-logo" href="index.html"><img src="images/smash-logo.jpg" alt="Auto Love" /></a>
                 <ul class="exc-contact-info" style="margin-left: 20px;">
                     <li class="phone-no">
                         <i class="fa fa-phone"></i>
@@ -59,6 +59,14 @@ require 'admin/db/connections.php';
                         <span class="info-desc">Mon to Fri: <span class="open-time">9:00am</span>  - <span class="close-time">5:00pm</span></span>
                     </li>
                 </ul>
+                <div class="exc-appointment">
+                    <a class="btn-group" href="#quote">
+                        <span class="btn">Make an Appointment</span>
+                        <span class="btn btn-arrow">
+                                <span class="fa fa-angle-double-right"></span>
+                        </span>
+                    </a>
+                </div>
                 <a class="exc-menu-btn" href="#">
                     <span class="menu-text">Menu</span>
                     <span class="menu-icon"></span>
@@ -67,13 +75,10 @@ require 'admin/db/connections.php';
             <nav class="main-navigation">
                 <ul>
                     <li class="dropdown mega-dropdown">
-                        <a  href="#">Home</a>
+                        <a  href="index.php">Home</a>
                     </li>
                     <li class="dropdown mega-dropdown">
-                        <a  href="#">About Us</a>
-                    </li>
-                    <li class="dropdown mega-dropdown">
-                        <a  href="#">Contact Us</a>
+                        <a  href="about-us.php">About Us</a>
                     </li>
                 </ul>
                 <ul class="exc-nav-right">
@@ -94,7 +99,6 @@ require 'admin/db/connections.php';
                                             <span class="address">4019 Geneva Street<br>New York, NY 10016</span>
                                             <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
                                             <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                            <span class="view-map" data-toggle="collapse" data-target="#map1"><i class="fa fa-map-marker"></i>View Map</span>
                                         </address>
                                     </div>
                                     <div class="col-sm-4">
@@ -103,7 +107,6 @@ require 'admin/db/connections.php';
                                             <span class="address">3323 Sunset Drive<br>Little Rock, AR 72212</span>
                                             <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
                                             <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                            <span class="view-map" data-toggle="collapse" data-target="#map2"><i class="fa fa-map-marker"></i>View Map</span>
                                         </address>
                                     </div>
                                     <div class="col-sm-4">
@@ -112,28 +115,9 @@ require 'admin/db/connections.php';
                                             <span class="address">170 Maryland Avenue<br>Pinellas, FL 34624</span>
                                             <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
                                             <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                            <span class="view-map" data-toggle="collapse" data-target="#map3"><i class="fa fa-map-marker"></i>View Map</span>
                                         </address>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="map1" class="collapse map-collapse">
-                                <div class="location-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.133505526799!2d-76.9829746!3d42.870026200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0c5141f3549a9%3A0xbdb4aae7f7f087b7!2sGeneva+St%2C+Geneva%2C+NY+14456%2C+USA!5e0!3m2!1sen!2s!4v1440679619345" allowfullscreen></iframe>
-                                </div>
-                                <span class="close-btn close-collapse"><i class="fa fa-times"></i></span>
-                            </div>
-                            <div id="map2" class="collapse map-collapse">
-                                <div class="location-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.8985569491592!2d-92.3470462!3d34.783329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2a3a5d147cb2b%3A0x866c1a6b8053b8a8!2sSunset+Dr%2C+Little+Rock%2C+AR+72207%2C+USA!5e0!3m2!1sen!2s!4v1440830462755" allowfullscreen></iframe>
-                                </div>
-                                <span class="close-btn close-collapse"><i class="fa fa-times"></i></span>
-                            </div>
-                            <div id="map3" class="collapse map-collapse">
-                                <div class="location-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.868842971827!2d-82.776865!3d28.0895433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f2df6febc2a1%3A0x2897289c127b7b01!2sMaryland+Ave%2C+Palm+Harbor%2C+FL+34683%2C+USA!5e0!3m2!1sen!2s!4v1440830738016" allowfullscreen></iframe>
-                                </div>
-                                <span class="close-btn close-collapse"><i class="fa fa-times"></i></span>
                             </div>
                         </div>
                     </li>
@@ -183,9 +167,6 @@ require 'admin/db/connections.php';
 
 <!-- Main -->
 <main class="exc-main">
-
-
-
     <!-- Services -->
     <div class="exc-services exc-section"  style="margin-top: 20px;">
 
@@ -244,19 +225,19 @@ require 'admin/db/connections.php';
                                 <div class="service-price-desc">
                                     <ul class="scroll-block">
                                         <li>
-                                            <a href="service-detail.html">
+                                            <a href="#">
                                                 <span class="service-items">Brake System Evaluation</span>
                                                 <span class="service-price"> from $49.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="service-detail.html">
+                                            <a href="#">
                                                 <span class="service-items">Replacement Pads</span>
                                                 <span class="service-price"> from $29.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="service-detail.html">
+                                            <a href="#">
                                                 <span class="service-items">Resurfacing Serviced Drum</span>
                                                 <span class="service-price"> from $39.99</span>
                                             </a>
