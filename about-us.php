@@ -141,7 +141,7 @@
                     <div class="widget widget-links">
                         <h3>Keep In Touch</h3>
                         <ul class="widget-list">
-                            <li><a><i class="fa fa-envelope-o"></i> : contact@carworkshop.com </a></li>
+                            <li><a><i class="fa fa-envelope-o"></i> : info@orbellasmashrepairs </a></li>
                             <li><a><i class="fa fa-map-marker"></i> : 139 New Canterbury RD </a></li>
                             <li><a></a><i class="fa fa-phone"></i> : 0431858685</a></li>
                         </ul>

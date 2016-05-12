@@ -224,7 +224,7 @@ session_start();
                                 <img src="images/service2.jpg" alt="Break Service">
                             </figure>
                             <div class="services-head-text">
-                                <h4><a href="#">MAINTENANCE</a></h4>
+                                <h4><a href="#">Spray Painting</a></h4>
                                 <p class="price-start">From <strong>$9.99</strong></p>
                                 <div class="clearfix"></div>
                                 <div class="service-price-desc">
@@ -260,27 +260,27 @@ session_start();
                                 <img src="images/service5.jpg" alt="Break Service">
                             </figure>
                             <div class="services-head-text">
-                                <h4><a href="#">Wash & Wax</a></h4>
-                                <p class="price-start">From <strong>$19.99</strong></p>
+                                <h4><a href="#">Free Rental Car</a></h4>
+                                <p class="price-start">It's <strong>Free</strong></p>
                                 <div class="clearfix"></div>
                                 <div class="service-price-desc">
                                     <ul class="scroll-block">
                                         <li>
                                             <a href="services.php">
-                                                <span class="service-items">Wash & Wax</span>
-                                                <span class="service-price"> from $29.99</span>
+                                                <span class="service-items">Coutesy Car</span>
+                                                <span class="service-price"> Free !</span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="services.php">
-                                                <span class="service-items">Wash</span>
-                                                <span class="service-price"> from $19.99</span>
+                                                <span class="service-items">Delivery Car</span>
+                                                <span class="service-price"> Free !</span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="services.php">
-                                                <span class="service-items">Wax</span>
-                                                <span class="service-price"> from $19.99</span>
+                                                <span class="service-items">7 Seater SUV</span>
+                                                <span class="service-price"> from $89</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -394,7 +394,7 @@ session_start();
                     <div class="widget widget-links">
                         <h3>Keep In Touch</h3>
                         <ul class="widget-list">
-                            <li><a><i class="fa fa-envelope-o"></i> : contact@carworkshop.com </a></li>
+                            <li><a><i class="fa fa-envelope-o"></i> : info@orbellasmashrepairs </a></li>
                             <li><a><i class="fa fa-map-marker"></i> : 139 New Canterbury RD </a></li>
                             <li><a></a><i class="fa fa-phone"></i> : 0431858685</a></li>
                         </ul>
