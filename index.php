@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'admin/db/connections.php';
+//require 'admin/db/connections.php';
 
 //$clientDB = new ClientDBConnection();
 
@@ -46,27 +46,26 @@ require 'admin/db/connections.php';
     <div class="exc-navbar">
         <div class="container">
             <div class="exc-brand">
-                <a class="exc-logo" href="index.html"><img src="images/smash-logo.jpg" alt="Auto Love" /></a>
+                <a class="exc-logo" href="">
+                    <img src="images/smash-logo.jpg" alt="Auto Love" />
+                </a>
                 <ul class="exc-contact-info" style="margin-left: 20px;">
                     <li class="phone-no">
                         <i class="fa fa-phone"></i>
                         <h6 class="info-title">Contact Us</h6>
-                        <span class="info-desc">+1 111 111 3272</span>
+                        <span class="info-desc">0431858685</span>
                     </li>
                     <li class="opening-time">
                         <i class="fa fa-clock-o"></i>
-                        <h6 class="info-title">We are open</h6>
-                        <span class="info-desc">Mon to Fri: <span class="open-time">9:00am</span>  - <span class="close-time">5:00pm</span></span>
+                        <h6 class="info-title">Mon to Sun</h6>
+                        <span class="info-desc"> <span class="open-time">9:00am</span>  - <span class="close-time">7:00pm</span></span>
+                    </li>
+                    <li class="opening-time">
+                        <i class="fa fa-map-marker"></i>
+                        <h6 class="info-title">139 New Canterbury Rd</h6>
+                        <span class="info-desc">Petersham NSW 2049</span>
                     </li>
                 </ul>
-                <div class="exc-appointment">
-                    <a class="btn-group" href="#quote">
-                        <span class="btn">Make an Appointment</span>
-                        <span class="btn btn-arrow">
-                                <span class="fa fa-angle-double-right"></span>
-                        </span>
-                    </a>
-                </div>
                 <a class="exc-menu-btn" href="#">
                     <span class="menu-text">Menu</span>
                     <span class="menu-icon"></span>
@@ -80,46 +79,16 @@ require 'admin/db/connections.php';
                     <li class="dropdown mega-dropdown">
                         <a  href="about-us.php">About Us</a>
                     </li>
+                    <li class="dropdown mega-dropdown">
+                        <a  href="services.php">Our Services</a>
+                    </li>
+                    <li class="dropdown mega-dropdown">
+                        <a  href="supports.php">Our Supports</a>
+                    </li>
                 </ul>
                 <ul class="exc-nav-right">
-                    <li class="dropdown dropdown-custom">
-                        <a href="#"><i class="fa fa-map-marker"></i>LOCATIONS</a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <div class="exc-locations dropdown-inner">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="exc-page-subheading">
-                                            <h2>Our Locations</h2>
-                                            <p class="pull-right">We are operating 3 workshop and expanding more soon</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <address>
-                                            <span class="address-title">NEW YORK</span>
-                                            <span class="address">4019 Geneva Street<br>New York, NY 10016</span>
-                                            <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
-                                            <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                        </address>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <address>
-                                            <span class="address-title">LITTLE ROCK</span>
-                                            <span class="address">3323 Sunset Drive<br>Little Rock, AR 72212</span>
-                                            <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
-                                            <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                        </address>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <address>
-                                            <span class="address-title">PINELASS</span>
-                                            <span class="address">170 Maryland Avenue<br>Pinellas, FL 34624</span>
-                                            <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
-                                            <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                        </address>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <li >
+                        <a href="#quote"><i class="fa fa-star"></i>Make An Appointment</a>
                     </li>
                 </ul>
             </nav>
@@ -134,17 +103,17 @@ require 'admin/db/connections.php';
         <div data-src="images/slides/slide1.jpg">
             <div class="camera_caption fadeIn">
                 <div class="slide-caption slide-1-caption">
-                    <div class="s1-layer-sm">50% off on</div>
-                    <div class="s1-layer-big">All Maintenance Services</div>
+                    <div class="s1-layer-sm">Hire CAR & TAXI</div>
+                    <div class="s1-layer-big">Repair Specialist </div>
                 </div>
             </div>
         </div>
         <div data-src="images/slides/slide2.jpg">
             <div class="camera_caption fadeIn">
                 <div class="slide-caption">
-                    <div class="s2-layer-md">Is Your car ready for</div>
-                    <div class="s2-layer-lg">summers ?</div>
-                    <div class="s2-layer-sm">a complete aC service + tune up for just 125$</div>
+                    <div class="s2-layer-md">Lifetime</div>
+                    <div class="s2-layer-lg">Guarantee</div>
+                    <div class="s2-layer-sm">On All Repairs </div>
                 </div>
             </div>
         </div>
@@ -173,7 +142,7 @@ require 'admin/db/connections.php';
         <div class="container">
 
             <div class="exc-page-title">
-                <h1 class="text-center" id="quote">Free Quote</h1>
+                <h1 class="text-center" name="quote" id="quote">Free Quote</h1>
             </div>
 
             <div class="col-md-12" style="margin-top: -20px; margin-bottom: 20px;">
@@ -207,7 +176,7 @@ require 'admin/db/connections.php';
             <div class="heading-cols">
                 <h1>Services <br />We Provide</h1>
                 <p>
-                    Morbi maximus sagittis neque eu commodo. Vestibulum egestas condimentum elit a blandit. Donec eget feugiat dolor. Fusce eu massa vestibulum, viverra turpis ultrices, pulvinar lorem. Sed sodales sodales libero, a faucibus nisl semper sed. Maecenas vitae magna sed massa elementum pretium a id mi. Nam sed posuere erat.
+                    Petersham Smash Repairs Company offer smash repairs services for all luxury cars including BMW, Range Rover, Audi, Mercedes-Benz, and Porsche as well as high cars. Petersham Smash Repairs is located in the inner west of Sydney, six kilometers southwest of Sydney central business district.
                 </p>
                 <div class="clearfix"></div>
             </div>
@@ -216,28 +185,28 @@ require 'admin/db/connections.php';
                     <div class="exc-service break-service">
                         <div class="exc-service-desc">
                             <figure class="service-img">
-                                <img src="images/service1.jpg" alt="Break Service">
+                                <img src="images/service3.jpg" alt="Break Service">
                             </figure>
                             <div class="services-head-text">
-                                <h4><a href="#">BRAKE SERVICES</a></h4>
+                                <h4><a href="#">Panel Beating</a></h4>
                                 <p class="price-start">From <strong>$29.99</strong></p>
                                 <div class="clearfix"></div>
                                 <div class="service-price-desc">
                                     <ul class="scroll-block">
                                         <li>
-                                            <a href="#">
+                                            <a href="services.php">
                                                 <span class="service-items">Brake System Evaluation</span>
                                                 <span class="service-price"> from $49.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="services.php">
                                                 <span class="service-items">Replacement Pads</span>
                                                 <span class="service-price"> from $29.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="services.php">
                                                 <span class="service-items">Resurfacing Serviced Drum</span>
                                                 <span class="service-price"> from $39.99</span>
                                             </a>
@@ -261,19 +230,19 @@ require 'admin/db/connections.php';
                                 <div class="service-price-desc">
                                     <ul class="scroll-block">
                                         <li>
-                                            <a href="service-detail.html">
+                                            <a href="services.php">
                                                 <span class="service-items">Headlight Restoration</span>
                                                 <span class="service-price"> from $49.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="service-detail.html">
+                                            <a href="services.php">
                                                 <span class="service-items">Bulb Installation</span>
                                                 <span class="service-price"> from $9.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="service-detail.html">
+                                            <a href="services.php">
                                                 <span class="service-items">Cabin Air Filter Install</span>
                                                 <span class="service-price"> from $19.99</span>
                                             </a>
@@ -288,29 +257,29 @@ require 'admin/db/connections.php';
                     <div class="exc-service tyre-shop">
                         <div class="exc-service-desc">
                             <figure class="service-img">
-                                <img src="images/service3.jpg" alt="Break Service">
+                                <img src="images/service5.jpg" alt="Break Service">
                             </figure>
                             <div class="services-head-text">
-                                <h4><a href="#">TYRE SHOP</a></h4>
+                                <h4><a href="#">Wash & Wax</a></h4>
                                 <p class="price-start">From <strong>$19.99</strong></p>
                                 <div class="clearfix"></div>
                                 <div class="service-price-desc">
                                     <ul class="scroll-block">
                                         <li>
-                                            <a href="service-detail.html">
-                                                <span class="service-items">Tyre Rotation</span>
+                                            <a href="services.php">
+                                                <span class="service-items">Wash & Wax</span>
                                                 <span class="service-price"> from $29.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="service-detail.html">
-                                                <span class="service-items">Flat Tyre Repair</span>
+                                            <a href="services.php">
+                                                <span class="service-items">Wash</span>
                                                 <span class="service-price"> from $19.99</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="service-detail.html">
-                                                <span class="service-items">Tyre Balancing</span>
+                                            <a href="services.php">
+                                                <span class="service-items">Wax</span>
                                                 <span class="service-price"> from $19.99</span>
                                             </a>
                                         </li>
@@ -332,7 +301,7 @@ require 'admin/db/connections.php';
                     <div class="heading-cols">
                         <h1>Why People <br />Love Us So Much</h1>
                         <p>
-                            Morbi maximus sagittis neque eu commodo. Vestibulum egestas condimentum elit a blandit. Donec eget feugiat dolor. Fusce eu massa vestibulum, viverra turpis ultrices, pulvinar lorem. Sed sodales sodales libero, a faucibus nisl semper sed. Maecenas vitae magna sed massa elementum pretium a id mi. Nam sed posuere erat.
+                            We provide smash repairs services as well as car maintenance to our valued customers. Our professional staff put the customers first and provides a wide range of services making sure that the customer is looked after while their vehicle is been repaired.
                         </p>
                         <div class="clearfix"></div>
                     </div>
@@ -343,7 +312,7 @@ require 'admin/db/connections.php';
                         </figure>
                         <div class="why-us-desc">
                             <h3>PROFESSIONAL TEAM</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla...</p>
+                            <p>Hire CAR & TAXI repair specialist </p>
                         </div>
                     </div>
                 </div>
@@ -352,7 +321,7 @@ require 'admin/db/connections.php';
                         <figure class="why-us-img"></figure>
                         <div class="why-us-desc">
                             <h3>ONLY QUALITY PARTS</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla...</p>
+                            <p>100% Quality assured </p>
                         </div>
                     </div>
                 </div>
@@ -361,7 +330,7 @@ require 'admin/db/connections.php';
                         <figure class="why-us-img"></figure>
                         <div class="why-us-desc">
                             <h3>LATEST EQUIPMENTS</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla...</p>
+                            <p>Life time guarantee on all repairs </p>
                         </div>
                     </div>
                 </div>
@@ -379,7 +348,7 @@ require 'admin/db/connections.php';
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Successful!</h4>
+                <h4 class="modal-title">Query Made Successfully!</h4>
             </div>
             <div class="modal-body">
                 <h1>Many thanks to your request! We will contact you in short time!</h1>
@@ -414,9 +383,9 @@ require 'admin/db/connections.php';
                     <div class="widget widget-learn-more">
                         <h3>Our Support</h3>
                         <ul class="widget-list">
-                            <li><a href="#">Tyre Information</a></li>
-                            <li><a href="#">Best in Class Brands</a></li>
-                            <li><a href="#">Video Library</a></li>
+                            <li><a href="supports.php">Latest Cars</a></li>
+                            <li><a href="supports.php">Lifetme Gurantee Repair</a></li>
+                            <li><a href="services.php">100% Quality Work</a></li>
                         </ul>
                     </div>
                 </div>
@@ -425,9 +394,9 @@ require 'admin/db/connections.php';
                     <div class="widget widget-links">
                         <h3>Keep In Touch</h3>
                         <ul class="widget-list">
-                            <li><i class="fa fa-envelope-o"> : contact@carworkshop.com</i></li>
-                            <li><i class="fa fa-map-marker"> : 148 Renwick </i></li>
-                            <li><i class="fa fa-phone"> : 0450927366</i></li>
+                            <li><a><i class="fa fa-envelope-o"></i> : contact@carworkshop.com </a></li>
+                            <li><a><i class="fa fa-map-marker"></i> : 139 New Canterbury RD </a></li>
+                            <li><a></a><i class="fa fa-phone"></i> : 0431858685</a></li>
                         </ul>
                     </div>
                 </div>
@@ -440,7 +409,7 @@ require 'admin/db/connections.php';
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="copy-right">COPYRIGHT 2015 · ALL RIGHTS RESERVED</div>
+                    <div class="copy-right">COPYRIGHT 2016 · ORBELLASMASHREPAIRS ALL RIGHTS RESERVED</div>
                 </div>
                 <div class="col-sm-6">
                     <ul class="exc-social-links">

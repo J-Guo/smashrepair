@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Auto Love</title>
+    <title>Smash Repair Sydney | Qualify & Low Price</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -27,27 +27,26 @@
     <div class="exc-navbar">
         <div class="container">
             <div class="exc-brand">
-                <a class="exc-logo" href="index.html"><img src="images/smash-logo.jpg" alt="Auto Love" /></a>
+                <a class="exc-logo" href="">
+                    <img src="images/smash-logo.jpg" alt="Auto Love" />
+                </a>
                 <ul class="exc-contact-info" style="margin-left: 20px;">
                     <li class="phone-no">
                         <i class="fa fa-phone"></i>
                         <h6 class="info-title">Contact Us</h6>
-                        <span class="info-desc">+1 111 111 3272</span>
+                        <span class="info-desc">0431858685</span>
                     </li>
                     <li class="opening-time">
                         <i class="fa fa-clock-o"></i>
-                        <h6 class="info-title">We are open</h6>
-                        <span class="info-desc">Mon to Fri: <span class="open-time">9:00am</span>  - <span class="close-time">5:00pm</span></span>
+                        <h6 class="info-title">Mon to Sun</h6>
+                        <span class="info-desc"> <span class="open-time">9:00am</span>  - <span class="close-time">7:00pm</span></span>
+                    </li>
+                    <li class="opening-time">
+                        <i class="fa fa-map-marker"></i>
+                        <h6 class="info-title">139 New Canterbury Rd</h6>
+                        <span class="info-desc">Petersham NSW 2049</span>
                     </li>
                 </ul>
-                <div class="exc-appointment">
-                    <a class="btn-group" href="#quote">
-                        <span class="btn">Make an Appointment</span>
-                        <span class="btn btn-arrow">
-                                <span class="fa fa-angle-double-right"></span>
-                        </span>
-                    </a>
-                </div>
                 <a class="exc-menu-btn" href="#">
                     <span class="menu-text">Menu</span>
                     <span class="menu-icon"></span>
@@ -61,46 +60,16 @@
                     <li class="dropdown mega-dropdown">
                         <a  href="about-us.php">About Us</a>
                     </li>
+                    <li class="dropdown mega-dropdown">
+                        <a  href="services.php">Our Services</a>
+                    </li>
+                    <li class="dropdown mega-dropdown">
+                        <a  href="supports.php">Our Supports</a>
+                    </li>
                 </ul>
                 <ul class="exc-nav-right">
-                    <li class="dropdown dropdown-custom">
-                        <a href="#"><i class="fa fa-map-marker"></i>LOCATIONS</a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <div class="exc-locations dropdown-inner">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="exc-page-subheading">
-                                            <h2>Our Locations</h2>
-                                            <p class="pull-right">We are operating 3 workshop and expanding more soon</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <address>
-                                            <span class="address-title">NEW YORK</span>
-                                            <span class="address">4019 Geneva Street<br>New York, NY 10016</span>
-                                            <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
-                                            <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                        </address>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <address>
-                                            <span class="address-title">LITTLE ROCK</span>
-                                            <span class="address">3323 Sunset Drive<br>Little Rock, AR 72212</span>
-                                            <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
-                                            <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                        </address>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <address>
-                                            <span class="address-title">PINELASS</span>
-                                            <span class="address">170 Maryland Avenue<br>Pinellas, FL 34624</span>
-                                            <span class="phone-no"><i class="fa fa-phone"></i>+1 111 111 3272</span>
-                                            <span class="email"><i class="fa fa-envelope"></i>email@autolove.com</span>
-                                        </address>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <li >
+                        <a href="index.php#quote"><i class="fa fa-star"></i>Make An Appointment</a>
                     </li>
                 </ul>
             </nav>
@@ -111,8 +80,6 @@
 
 <!-- Page Banner -->
 <div class="exc-page-banner">
-
-
 
 </div>
 <!-- Main -->
@@ -129,13 +96,7 @@
                         <article class="services-detail">
                             <h2 class="starts-from">Hire Car & Taxi Repair Specialist</h2>
                             <div class="entry-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim neque leo, porttitor rutrum erat hendrerit a. Aliquam consectetur ac ante vitae mattis. Sed maximus leo a mi imperdiet rhoncus. Ut dictum, libero sit amet suscipit viverra, arcu risus finibus nulla, in imperdiet magna mauris sit amet augue. Cras in pulvinar metus, sit amet finibus tortor. Curabitur dignissim nibh quis nisi tincidunt, nec aliquam sem pharetra. Nulla gravida orci libero, consectetur aliquam ante semper non.</p>
-                                <ul class="minigallery two-col">
-                                    <li><a href="#"><img src="images/service1.jpg" alt="" /></a></li>
-                                    <li><a href="#"><img src="images/service2.jpg" alt="" /></a></li>
-                                </ul>
-                                <p>Ut vel nibh quis lectus ultricies pretium. Morbi congue accumsan ultrices. Suspendisse vitae elementum mi. In consequat dictum lectus, id venenatis risus vulputate eu. Nam fringilla nunc non rutrum congue. Fusce enim purus, viverra eu fringil</p>
-                                <p>Ut vel nibh quis lectus ultricies pretium. Morbi congue accumsan ultrices. Suspendisse vitae elementum mi. In consequat dictum lectus, id venenatis risus vulputate eu. Nam fringilla nunc non rutrum congue. Fusce enim purus, viverra eu fringilla a, iaculis eget justo. Aliquam enim ante, dapibus nec ex vel, iaculis gravida est. Praesent aliquam in lacus a convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse non imperdiet erat. Nam pellentesque.</p>
+                                <p>Petersham Smash Repairs Company offer smash repairs services for all luxury cars including BMW, Range Rover, Audi, Mercedes-Benz, and Porsche as well as high cars. Petersham Smash Repairs is located in the inner west of Sydney, six kilometers southwest of Sydney central business district.  We provide smash repairs services as well as car maintenance to our valued customers. Our professional staff put the customers first and provides a wide range of services making sure that the customer is looked after while their vehicle is been repaired.</p>
                             </div><!-- .entry-content -->
                         </article>
                     </div>
@@ -169,9 +130,9 @@
                     <div class="widget widget-learn-more">
                         <h3>Our Support</h3>
                         <ul class="widget-list">
-                            <li><a href="#">Tyre Information</a></li>
-                            <li><a href="#">Best in Class Brands</a></li>
-                            <li><a href="#">Video Library</a></li>
+                            <li><a href="supports.php">Latest Cars</a></li>
+                            <li><a href="supports.php">Lifetme Gurantee Repair</a></li>
+                            <li><a href="services.php">100% Quality Work</a></li>
                         </ul>
                     </div>
                 </div>
@@ -180,9 +141,9 @@
                     <div class="widget widget-links">
                         <h3>Keep In Touch</h3>
                         <ul class="widget-list">
-                            <li><i class="fa fa-envelope-o"> : contact@carworkshop.com</i></li>
-                            <li><i class="fa fa-map-marker"> : 148 Renwick </i></li>
-                            <li><i class="fa fa-phone"> : 0450927366</i></li>
+                            <li><a><i class="fa fa-envelope-o"></i> : contact@carworkshop.com </a></li>
+                            <li><a><i class="fa fa-map-marker"></i> : 139 New Canterbury RD </a></li>
+                            <li><a></a><i class="fa fa-phone"></i> : 0431858685</a></li>
                         </ul>
                     </div>
                 </div>
@@ -195,7 +156,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="copy-right">COPYRIGHT 2015 · ALL RIGHTS RESERVED</div>
+                    <div class="copy-right">COPYRIGHT 2016 · ORBELLASMASHREPAIRS ALL RIGHTS RESERVED</div>
                 </div>
                 <div class="col-sm-6">
                     <ul class="exc-social-links">
