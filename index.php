@@ -15,6 +15,12 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />-->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Smash Repairs In Sydney">
+    <meta name="keywords" content="smash,smash repair,car repair,smash repairs,car smash repairs,
+        smashed car repair,vehicle repairs,smash and repair,car repair center,vehicle repair center,
+        panel beater,panelbeater,panel beating,car dent repair,car restoration,car body work,car body repair,
+        car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,
+        vehicle dent removal,dent repair">
     <title>Smash Repair Sydney | Qualify & Low Price</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -83,9 +89,6 @@ session_start();
                     </li>
                     <li class="dropdown mega-dropdown">
                         <a  href="services.php">Our Services</a>
-                    </li>
-                    <li class="dropdown mega-dropdown">
-                        <a  href="supports.php">Our Supports</a>
                     </li>
                     <li class="dropdown mega-dropdown">
                         <a  href="contact.php">Contact Us</a>
@@ -388,8 +391,8 @@ session_start();
                     <div class="widget widget-learn-more">
                         <h3>Our Support</h3>
                         <ul class="widget-list">
-                            <li><a href="supports.php">Latest Cars</a></li>
-                            <li><a href="supports.php">Lifetme Gurantee Repair</a></li>
+                            <li><a href="services.php">Latest Cars</a></li>
+                            <li><a href="services.php">Lifetme Gurantee Repair</a></li>
                             <li><a href="services.php">100% Quality Work</a></li>
                         </ul>
                     </div>
@@ -399,7 +402,7 @@ session_start();
                     <div class="widget widget-links">
                         <h3>Keep In Touch</h3>
                         <ul class="widget-list">
-                            <li><a><i class="fa fa-envelope-o"></i> : info@orbellasmashrepairs </a></li>
+                            <li><a href="contact.php"><i class="fa fa-envelope-o"></i> : info@orbellasmashrepairs </a></li>
                             <li><a href="https://www.google.com/maps/place/139+New+Canterbury+Rd,+Lewisham+NSW+2049,+Australia/@-33.896744,151.14988,15z/data=!4m5!3m4!1s0x6b12b072f0c0a281:0x592896f380f45e1c!8m2!3d-33.896744!4d151.14988?hl=en-US"><i class="fa fa-map-marker"></i> : 139 New Canterbury RD </a></li>
                             <li><a></a><i class="fa fa-phone"></i> : 0431858685</a></li>
                         </ul>
