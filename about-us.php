@@ -91,11 +91,11 @@
             </div>
             <!-- Services Detail -->
             <div class="exc-section">
-                <div class="row">
+                <div class="row" style="margin-top: -50px;">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <article class="services-detail">
-                            <h2 class="starts-from">Hire Car & Taxi Repair Specialist</h2>
-                            <div class="entry-content">
+                            <h2 class="entry-title text-left">Hire Car & Taxi Repair Specialist</h2>
+                            <div class="entry-content text-justify">
                                 <p>Petersham Smash Repairs Company offer smash repairs services for all luxury cars including BMW, Range Rover, Audi, Mercedes-Benz, and Porsche as well as high cars. Petersham Smash Repairs is located in the inner west of Sydney, six kilometers southwest of Sydney central business district.  We provide smash repairs services as well as car maintenance to our valued customers. Our professional staff put the customers first and provides a wide range of services making sure that the customer is looked after while their vehicle is been repaired.</p>
                             </div><!-- .entry-content -->
                         </article>
@@ -103,7 +103,14 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
+
+            <div class="visible-xs visible-sm" style="margin-top: 20px;">
+                <button class="btn btn-block" onclick="window.location.href='index.php'">Make An Appointment</button>
+            </div>
+
+
         </div>
+
     </div>
 </main>
 <!-- Main Ends -->
@@ -119,9 +126,9 @@
                     <div class="widget widget-learn-more">
                         <h3>Our Services</h3>
                         <ul class="widget-list">
-                            <li><a href="#">Body Work</a></li>
-                            <li><a href="#">Engine Performance</a></li>
-                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="services.php">Body Work</a></li>
+                            <li><a href="services.php">Engine Performance</a></li>
+                            <li><a href="services.php">Maintenance</a></li>
                         </ul>
                     </div>
                 </div>

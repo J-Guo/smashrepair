@@ -784,7 +784,7 @@ a.btn-arrow {
 /* # Header
 -------------------------------------------------------------- */
 .exc-header {
-	background-color: #101011;
+	background-color: #ffffff;
 	position: relative;
 }
 /*	## Topbar*/
@@ -851,7 +851,7 @@ a.btn-arrow {
 .exc-header .exc-contact-info,
 .exc-header .info-title,
 .exc-header .info-desc {
-	color: #ffffff;
+	color: #AB0F08;
 }
 .exc-header .exc-contact-info {
 	float: left;
@@ -859,7 +859,7 @@ a.btn-arrow {
 	display: none;
 }
 .exc-header .exc-contact-info li i {
-	border-color: #ffffff;
+	border-color: #AB0F08;
 }
 .exc-header .exc-appointment {
 	margin-top: 7px;
@@ -1046,7 +1046,7 @@ a.btn-arrow {
 /*Mobile Menu Button*/
 .exc-menu-btn {
 	display: block;
-	background-color: rgba(0,0,0,0.5);
+	background-color: #ffffff;
 	position: absolute;
 	height: 100%;
 	width: 110px;
@@ -1060,13 +1060,13 @@ a.btn-arrow {
 	text-transform: uppercase;
 	line-height: 90px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #AB0F08;
 }
 .exc-menu-btn .menu-icon {
 	position: absolute;
 	height: 2px;
 	width: 18px;
-	background-color: #ffffff;
+	background-color: #AB0F08;
 	top: 50%;
 	right: 20px;
 	margin-top: -1px;

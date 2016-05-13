@@ -37,6 +37,8 @@ session_start();
         textarea {
             font-size: 16px;
         }
+
+
     </style>
 </head>
 <body>
@@ -84,6 +86,9 @@ session_start();
                     </li>
                     <li class="dropdown mega-dropdown">
                         <a  href="supports.php">Our Supports</a>
+                    </li>
+                    <li class="dropdown mega-dropdown">
+                        <a  href="contact.php">Contact Us</a>
                     </li>
                 </ul>
                 <ul class="exc-nav-right">
@@ -142,7 +147,7 @@ session_start();
         <div class="container">
 
             <div class="exc-page-title">
-                <h1 class="text-center" name="quote" id="quote">Free Quote</h1>
+                <h1 class="text-center" name="quote" id="quote">Contact Us</h1>
             </div>
 
             <div class="col-md-12" style="margin-top: -20px; margin-bottom: 20px;">
@@ -175,7 +180,7 @@ session_start();
 
             <div class="heading-cols">
                 <h1>Services <br />We Provide</h1>
-                <p>
+                <p class="text-justify">
                     Petersham Smash Repairs Company offer smash repairs services for all luxury cars including BMW, Range Rover, Audi, Mercedes-Benz, and Porsche as well as high cars. Petersham Smash Repairs is located in the inner west of Sydney, six kilometers southwest of Sydney central business district.
                 </p>
                 <div class="clearfix"></div>
@@ -300,7 +305,7 @@ session_start();
                 <div class="col-md-12 col-sm-12">
                     <div class="heading-cols">
                         <h1>Why People <br />Love Us So Much</h1>
-                        <p>
+                        <p class="text-justify">
                             We provide smash repairs services as well as car maintenance to our valued customers. Our professional staff put the customers first and provides a wide range of services making sure that the customer is looked after while their vehicle is been repaired.
                         </p>
                         <div class="clearfix"></div>
@@ -367,18 +372,18 @@ session_start();
     <div class="exc-footer-widgets">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 hidden-xs hidden-sm">
                     <!-- Widget Services More -->
                     <div class="widget widget-learn-more">
                         <h3>Our Services</h3>
                         <ul class="widget-list">
-                            <li><a href="#">Body Work</a></li>
-                            <li><a href="#">Engine Performance</a></li>
-                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="services.php">Body Work</a></li>
+                            <li><a href="services.php">Engine Performance</a></li>
+                            <li><a href="services.php">Maintenance</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 hidden-xs hidden-sm">
                     <!-- Widget Learn More -->
                     <div class="widget widget-learn-more">
                         <h3>Our Support</h3>
@@ -395,7 +400,7 @@ session_start();
                         <h3>Keep In Touch</h3>
                         <ul class="widget-list">
                             <li><a><i class="fa fa-envelope-o"></i> : info@orbellasmashrepairs </a></li>
-                            <li><a><i class="fa fa-map-marker"></i> : 139 New Canterbury RD </a></li>
+                            <li><a href="https://www.google.com/maps/place/139+New+Canterbury+Rd,+Lewisham+NSW+2049,+Australia/@-33.896744,151.14988,15z/data=!4m5!3m4!1s0x6b12b072f0c0a281:0x592896f380f45e1c!8m2!3d-33.896744!4d151.14988?hl=en-US"><i class="fa fa-map-marker"></i> : 139 New Canterbury RD </a></li>
                             <li><a></a><i class="fa fa-phone"></i> : 0431858685</a></li>
                         </ul>
                     </div>

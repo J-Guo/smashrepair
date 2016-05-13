@@ -134,7 +134,7 @@
                             </figure>
                             <div class="exc-post-header">
                                 <h6 class="starts-from">Starts From Just $89</h6>
-                                <h5>Hire 7 Seater SUV</h5>
+                               <a href="http://www.suvrentals.com.au"> <h5><img src="images/label.png" style="width: 30px;height: 30px; margin-right: 20px; margin-top: -5px;">Hire 7 Seater SUV</h5></a>
                             </div>
                         </div>
                     </li>
@@ -178,9 +178,9 @@
                     <div class="widget widget-learn-more">
                         <h3>Our Services</h3>
                         <ul class="widget-list">
-                            <li><a href="#">Body Work</a></li>
-                            <li><a href="#">Engine Performance</a></li>
-                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="services.php">Body Work</a></li>
+                            <li><a href="services.php">Engine Performance</a></li>
+                            <li><a href="services.php">Maintenance</a></li>
                         </ul>
                     </div>
                 </div>

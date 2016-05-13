@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +22,15 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Disable Mobile Zoom for Input Field-->
+    <style>
+        input[type='text'],
+        input[type='tel'],
+        textarea {
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
 <!-- Header -->
@@ -81,86 +94,109 @@
 <!-- Page Banner -->
 <div class="exc-page-banner">
 
-
-
 </div>
 <!-- Main -->
 <main class="exc-main">
-    <div class="exc-page-content">
+    <div class="exc-page-content" >
         <div class="container">
             <div class="exc-page-title">
-                <h1>Our Supports</h1>
+                <h1>CONTACT US</h1>
             </div>
-            <!-- Support Detail -->
-<!--            <div class="exc-section" style="margin-top: 20px;">-->
-<!--               <div class="col-md-6">-->
-<!--                   <ul class="widget-list">-->
-<!--                       <li><h2><i class="fa fa-check"> Car Repair Specialist</h2></i></li>-->
-<!--                       <li><h2><i class="fa fa-check"> No Excess Ever</h2></i></li>-->
-<!--                       <li><h2><i class="fa fa-check"> Lasted Audi Range Rover</h2></i></li>-->
-<!--                       <li><h2><i class="fa fa-check"> Lifetime Gurantee on All Repairs</h2></i></li>-->
-<!--                   </ul>-->
-<!--               </div>-->
-<!--                <div class="col-md-6">-->
-<!--                    <ul class="widget-list">-->
-<!--                        <li><h2><i class="fa fa-check"> 100% Quality Work</h2></i></li>-->
-<!--                        <li><h2><i class="fa fa-check"> Wash & Wax</h2></i></li>-->
-<!--                        <li><h2><i class="fa fa-check"> Free Pick Up & Delivery</h2></i></li>-->
-<!--                        <li><h2><i class="fa fa-check"> We Can Speak Your Language</h2></i></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-            <div class="row">
-                <div class="col-lg-6 col-sm-6">
-                    <div class="exc-qualities professional-team">
-                        <figure class="why-us-img">
-                            <i class="fa fa-thumbs-o-up fa-5x"></i>
-                        </figure>
-                        <div class="why-us-desc">
-                            <h3>Pick-up and Delivery </h3>
-                            <p>We will Pickup and deliver your vehicle to any suburb free of Charge. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <div class="exc-qualities professional-team">
-                        <figure class="why-us-img">
-                            <i class="fa fa-scissors fa-5x"></i>
-                        </figure>
-                        <div class="why-us-desc">
-                            <h3>Panel Beating </h3>
-                            <p>We are able to repair a wide variety of luxury and high-end vehicles. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <div class="exc-qualities professional-team">
-                        <figure class="why-us-img">
-                            <i class="fa fa-cab fa-5x"></i>
-                        </figure>
-                        <div class="why-us-desc">
-                            <h3>Latest Cars</h3>
-                            <p>Brand new Audi, Holden, Range Rover& BMW</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <div class="exc-qualities professional-team">
-                        <figure class="why-us-img">
-                            <i class="fa fa-car fa-5x"></i>
-                        </figure>
-                        <div class="why-us-desc">
-                            <h3>Courtesy Car</h3>
-                            <p>Orbella Panel Beater can assist you in securing a loan car whilst your car is being repaired</p>
-                        </div>
-                    </div>
-                </div>
 
+            <div class="row" id="contact-form" >
+                <div class="col-md-8">
+                    <form action="send-message.php" method="post" class="contact-us-form">
+                        <p class="block-label">PLEASE FEEL FREE TO CONTACT US FOR ANY INQUIRY OR BOOKING</p>
+                        <div class="row">
+                            <!-- Validation Messages-->
+                            <?php if(isset($_SESSION['error'])) {?>
+                            <div class="form-group col-md-12">
+                                <div class="alert alert-danger col-md-12 text-center" role="alert">
+                                    <?php
+                                    echo $_SESSION['error'];
+                                    ?>
+                                </div>
+                            </div>
+                            <?php } ?>
+
+                            <div class="form-group col-md-6">
+                                <input class="form-control"
+                                       value="<?php echo isset($_SESSION['oldname'])? $_SESSION['oldname']:"" ?>"
+                                       name="username" id="username" placeholder="Full Name" type="text">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input class="form-control"
+                                       value="<?php echo isset($_SESSION['oldmobile'])? $_SESSION['oldmobile']:"" ?>"
+                                       name="mobile" id="mobile" placeholder="Phone Number" type="tel">
+
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input class="form-control"
+                                       value="<?php echo isset($_SESSION['oldsubject'])? $_SESSION['oldsubject']:"" ?>"
+                                       name="emailSubject" id="emailSubject" placeholder="Subject" type="text">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input class="form-control"
+                                       value="<?php echo isset($_SESSION['oldemail'])? $_SESSION['oldemail']:"" ?>"
+                                       name="email" id="email" placeholder="Email Address" type="text">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea style="font-size: 16px;" class="form-control"
+
+                                        name="messageBody" id="messageBody"  placeholder="Write your message here" rows="8"></textarea>
+                            </div>
+                            <div class="form-group col-md-12">
+
+                                    <button class="btn btn-block">Send Message</button>
+
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+                <aside class="col-md-4">
+                    <!-- Widget Our Locations -->
+                    <div class="widget widget-our-locations">
+                        <h3>OUR LOCATON</h3>
+                        <div class="location-box">
+                            <figure style="height:250px;">
+                                <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgaLA8HKwEmsRHF70gPOWKFk&key=AIzaSyAomTWe6-_JXMoza7hm9olIQLZ8TEq5PdY" allowfullscreen></iframe>
+                            </figure>
+                            <address>
+                                <span class="address">139 New Canterbury RD, Petersham NSW 2049</span>
+                                <span class="phone-no"><i class="fa fa-phone"></i>0431858685</span>
+                                <span class="email"><i class="fa fa-envelope"></i>info@orbellasmashrepairs</span>
+                                <span class="worktime"><i class="fa fa-clock-o"></i>Mon - Sun: 9AM - 7PM</span>
+                            </address>
+                        </div>
+                    </div>
+                </aside>
             </div>
+
         </div>
     </div>
 </main>
 <!-- Main Ends -->
+
+<!-- User Form Modal-->
+<div id="emailMessageModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Message Sent Successfully!</h4>
+            </div>
+            <div class="modal-body">
+                <h1>Many thanks to your message! We will send email back to you in short time!</h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal-->
 
 <!-- Footer -->
 <footer class="exc-footer">
@@ -236,5 +272,16 @@
 <script src="js/bootstrap-select.min.js"></script>
 <script src="js/perfect-scrollbar.jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+
+<!-- Show User Modal Based on Feedback Message-->
+<?php if(isset($_SESSION['message'])) {?>
+    <script type="text/javascript"> $('#emailMessageModal').modal('show'); </script>
+<?php }?>
+
 </body>
 </html>
+
+<!-- Terminate the Session -->
+<?php
+session_destroy();
+?>
