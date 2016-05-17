@@ -700,7 +700,7 @@ a.btn-arrow {
 .service-price-desc ul li + li {
 	padding-top: 11px;
 }
-.service-items {float: none;}
+.service-items {float: left;}
 .service-price {
 	float: right;
 }
@@ -784,7 +784,7 @@ a.btn-arrow {
 /* # Header
 -------------------------------------------------------------- */
 .exc-header {
-	background-color: #ffffff;
+	background-color: #101011;
 	position: relative;
 }
 /*	## Topbar*/
@@ -851,7 +851,7 @@ a.btn-arrow {
 .exc-header .exc-contact-info,
 .exc-header .info-title,
 .exc-header .info-desc {
-	color: #AB0F08;
+	color: #ffffff;
 }
 .exc-header .exc-contact-info {
 	float: left;
@@ -859,7 +859,7 @@ a.btn-arrow {
 	display: none;
 }
 .exc-header .exc-contact-info li i {
-	border-color: #AB0F08;
+	border-color: #ffffff;
 }
 .exc-header .exc-appointment {
 	margin-top: 7px;
@@ -1046,7 +1046,7 @@ a.btn-arrow {
 /*Mobile Menu Button*/
 .exc-menu-btn {
 	display: block;
-	background-color: #ffffff;
+	background-color: rgba(0,0,0,0.5);
 	position: absolute;
 	height: 100%;
 	width: 110px;
@@ -1060,13 +1060,13 @@ a.btn-arrow {
 	text-transform: uppercase;
 	line-height: 90px;
 	font-weight: 700;
-	color: #AB0F08;
+	color: #ffffff;
 }
 .exc-menu-btn .menu-icon {
 	position: absolute;
 	height: 2px;
 	width: 18px;
-	background-color: #AB0F08;
+	background-color: #ffffff;
 	top: 50%;
 	right: 20px;
 	margin-top: -1px;
@@ -2819,7 +2819,7 @@ a.btn-arrow {
 	list-style: none;
 }
 .services-list > li {
-	width: 25%;
+	width: 33.33%;
 	padding-left: 1px;
 	float: left;
 }
