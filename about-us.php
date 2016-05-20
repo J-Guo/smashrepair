@@ -11,8 +11,9 @@
         panel beater,panelbeater,panel beating,car dent repair,car restoration,car body work,car body repair,
         car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,
         vehicle dent removal,dent repair">
-    <title>Smash Repair Sydney | Qualify & Low Price</title>
+    <title>Orbella | Smash Repair Sydney | Hire Car & Taxi Repair Specialist</title>
     <!-- Stylesheets -->
+    <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- Fonts -->
@@ -24,6 +25,12 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+        .entry-content {
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
 <!-- Header -->
@@ -34,7 +41,7 @@
         <div class="container">
             <div class="exc-brand">
                 <a class="exc-logo" href="">
-                    <img src="images/smash-logo.png" alt="Auto Love" />
+                    <img src="images/logo.png" alt="Auto Love" />
                 </a>
                 <ul class="exc-contact-info" style="margin-left: 20px;">
                     <li class="phone-no">
@@ -54,7 +61,6 @@
                     </li>
                 </ul>
                 <a class="exc-menu-btn" href="#">
-                    <span class="menu-text">Menu</span>
                     <span class="menu-icon"></span>
                 </a>
             </div>
@@ -100,9 +106,11 @@
                 <div class="row" style="margin-top: -50px;">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <article class="services-detail">
-                            <h2 class="entry-title text-left">Hire Car & Taxi Repair Specialist</h2>
+                            <h2 class="entry-title text-left">Welcome to Petersham Smash Repairs</h2>
                             <div class="entry-content text-justify">
-                                <p>Petersham Smash Repairs Company offer smash repairs services for all luxury cars including BMW, Range Rover, Audi, Mercedes-Benz, and Porsche as well as high cars. Petersham Smash Repairs is located in the inner west of Sydney, six kilometers southwest of Sydney central business district.  We provide smash repairs services as well as car maintenance to our valued customers. Our professional staff put the customers first and provides a wide range of services making sure that the customer is looked after while their vehicle is been repaired.</p>
+                                <p style="font-size: 15px;">Petersham Smash Repairs pride themselves in offering quality and efficiency panel beating and Automotive painting in all vehicles including prestige models. We are conveniently located in the inner west of Sydney, six kilometers southwest of Sydney central business district. Petersham Smash Repairs cater for all your panel beating, smash repair, car restoration, and car re-spraying needs.  We focus on delivering panel-beating services to each of our valued customers. We understand that your car is valuable to you and therefore we aim in providing superior service. We ensure that highest quality standards are always maintained, by utilizing original equipment from the manufacturer, replacement parts and paint technology that produce the highest quality. </p>
+                                <p>We understand that having an accident can get frustrating and confusing experience. We have a team of highly experienced panel beaters and spray painters who will restore your vehicle to its pre-accident condition. Our experienced staff will guide you through all aspect of lodging a claim with your insurance company and making the whole process as smooth as possible. From a minor scratch to a major collision, Petersham Smash repairs are here to help!</p>
+                                <p>We also provide professional and affordable 24 hours towing services throughout Sydney.  We offer prompt quality services, towing and roadside assistance services. Weather your car break down on the roadside or involved in an accident, let Petersham Smash repairs be your guide and show you the road to recovery. <b>Try us TODAY!</b></p>
                             </div><!-- .entry-content -->
                         </article>
                     </div>
@@ -184,10 +192,10 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="exc-social-links">
+                        <li><a href="https://plus.google.com/+OrbellaSydney/about"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     </ul>
                 </div>
             </div>

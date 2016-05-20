@@ -15,8 +15,9 @@ session_start();
         panel beater,panelbeater,panel beating,car dent repair,car restoration,car body work,car body repair,
         car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,
         vehicle dent removal,dent repair">
-    <title>Smash Repair Sydney | Qualify & Low Price</title>
+    <title>Orbella | Smash Repair Petersham Marrickville | (02) 9560 2301 </title>
     <!-- Stylesheets -->
+    <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- Fonts -->
@@ -47,7 +48,7 @@ session_start();
         <div class="container">
             <div class="exc-brand">
                 <a class="exc-logo" href="">
-                    <img src="images/smash-logo.png" alt="Auto Love" />
+                    <img src="images/logo.png" alt="Auto Love" />
                 </a>
                 <ul class="exc-contact-info" style="margin-left: 20px;">
                     <li class="phone-no">
@@ -67,7 +68,6 @@ session_start();
                     </li>
                 </ul>
                 <a class="exc-menu-btn" href="#">
-                    <span class="menu-text">Menu</span>
                     <span class="menu-icon"></span>
                 </a>
             </div>
@@ -267,10 +267,10 @@ session_start();
                 </div>
                 <div class="col-sm-6">
                     <ul class="exc-social-links">
+                        <li><a href="https://plus.google.com/+OrbellaSydney/about"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     </ul>
                 </div>
             </div>
