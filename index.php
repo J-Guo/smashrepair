@@ -17,7 +17,7 @@ session_start();
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="smash,smash repair,car repairs,car repair,smash repairs,car smash repairs,smashed car repair,vehicle repairs,smash and repair,car repair center,vehicle repair center,panel beater,panelbeater,panel beating,
     car dent repair,car restoration,car body work,car body repair,car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,vehicle dent removal,dent repair,auto bodywork,car beating spray,spray painting,car spray,
-    car paint,car painting,auto body smash repairs,smashed car panel repair,smashed car window repair,auto repair mechanics,cost of car repairs,fixing cars,car service center,no extra fee,
+    car paint,car painting,auto body smash repairs,smashed car panel repair,smashed car window repair,auto repair mechanics,cost of car repairs,fixing cars,car service center,no extra fee,car repairs sydney, smash repairs sydney, car repair sydney, smash repair sydney
     courtesy car for smash repair,courtesy car for car repair,trailer truck for smash repair,trailer truck for car repair,cheap smash repair,cheap smash repair marrickville,cheap smash repair inner city,cheap smash repair petersham,cheap smash repair sydney,
     cheap car repair,cheap car repair petersham,cheap car repair marrickville,cheap car repair inner city,cheap car repair sydney,low price smash repair,low price smash repair petersham,low price smash repair marrickville,low price smash repair inner city,
     low price smash repair sydney,low price car repair,low price car repair petersham,low price car repair marrickville,low price car repair inner city,low price car repair sydney,smash repair marrickville,smash repair inner city,smash repair tempe,smash repair wolli creek,
@@ -41,7 +41,16 @@ session_start();
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-75073481-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
     <!-- Disable Mobile Zoom for Input Field-->
     <style>
         input[type='text'],

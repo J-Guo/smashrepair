@@ -108,7 +108,7 @@ $send_message =
 try{
 $mailgun->sendMessage($domain, array(
     'from'    => 'Smash Repair Notification <admin@orbellasmashrepairs.com.au>',
-    'to'      => 'eric@orbella.com.au',
+    'to'      => 'info@orbellasmashrepairs.com.au',
     'subject' => $send_subject,
     'text'    => $send_message
 ));

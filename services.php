@@ -25,6 +25,16 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75073481-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
 <!-- Header -->
@@ -34,7 +44,7 @@
     <div class="exc-navbar">
         <div class="container">
             <div class="exc-brand">
-                <a class="exc-logo" href="">
+                <a class="exc-logo" href="index.php">
                     <img src="images/logo.png" alt="Auto Love" />
                 </a>
                 <ul class="exc-contact-info" style="margin-left: 20px;">
