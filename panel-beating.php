@@ -11,7 +11,7 @@
         panel beater,panelbeater,panel beating,car dent repair,car restoration,car body work,car body repair,
         car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,
         vehicle dent removal,dent repair">
-    <title>Orbella | Smash Repair | Panel Beating | Spray painting | 24 hours towing services</title>
+    <title>Orbella | Smash Repair Sydney | Panel Beating</title>
     <!-- Stylesheets -->
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -97,86 +97,60 @@
 <!-- Page Banner -->
 <div class="exc-page-banner">
 
-
-
 </div>
 <!-- Main -->
 <main class="exc-main">
     <div class="exc-page-content">
         <div class="container">
             <div class="exc-page-title">
-                <h1>Our Services</h1>
+                <h1>Panel Beating </h1>
             </div>
             <!-- Services Detail -->
             <div class="exc-section">
-                <ul class="blog-listing">
-                    <li>
-                        <div class="exc-blog-post">
-                            <figure>
-                                <img src="images/service3.jpg" alt="">
-                            </figure>
-                            <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $60</h6>
-                                <h5><a href="panel-beating.php">Panel Beating</a></h5>
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <article class="services-detail">
+                            <h2 class="starts-from">Starts From Just $60</h2>
+                            <div class="entry-content">
+                                <p class="text-justify">Petersham Smash Repairs specialize in all the aspects of panel beating and spray painting that is required to bring your vehicle back to its pre-accident condition including wheel alignment, welding, grinding, sanding, and repainting, whether the damage is only minor or substantial. </p>
+                                <ul class="minigallery two-col">
+                                    <li><img src="images/service1.jpg" alt="" style="height: 211px; width: 375px;"/></li>
+                                    <li><a href="#"><img src="images/service2.jpg" alt="" style="height: 211px; width: 375px;" /></a></li>
+                                </ul>
+                                <p class="text-justify">We have certified panel beaters who are highly experienced and qualified with the correct training and knowledge in order to ensure that all repairs are carried out to the highest standard.
+                                When you bring in your vehicle, one of our certified panel beater will assess your vehicle and determine where and how to perform the repair work. We will remove the parts that damaged and start working in your car using our mechanical, hydraulic and metalworking equipment.
+                                If you are looking for good quality smash repairs in Petersham, you have come to the right place. Give us a call and learn more about our services that we provide here at Petersham Smash Repairs.
+                                </p>
+                            </div><!-- .entry-content -->
+                        </article>
+                    </div>
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <!-- Widget Our Locations -->
+                        <div class="exc-free-quote services-page">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="exc-page-subheading">
+                                    <h2>Find Us</h2>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="location-box">
+                                    <figure style="height:250px;">
+                                        <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgaLA8HKwEmsRHF70gPOWKFk&key=AIzaSyAomTWe6-_JXMoza7hm9olIQLZ8TEq5PdY" allowfullscreen></iframe>
+                                    </figure>
+                                    <address>
+                                        <span class="address">139 New Canterbury RD, Petersham NSW 2049</span>
+                                        <span class="phone-no"><i class="fa fa-phone"></i>0431858685</span>
+                                        <span class="email"><i class="fa fa-envelope"></i>info@orbellasmashrepairs.com.au</span>
+                                        <span class="worktime"><i class="fa fa-clock-o"></i>Mon - Sun: 9:00 AM - 7:00 PM</span>
+                                    </address>
+                                </div>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="exc-blog-post">
-                            <figure>
-                                <img src="images/service5.jpg" alt="">
-                            </figure>
-                            <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $49</h6>
-                                <h5><a href="spray-painting.php">Spray Painting</a></h5>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="exc-blog-post">
-                            <figure>
-                                <img src="images/service2.jpg" alt="">
-                            </figure>
-                            <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $29</h6>
-                                <h5>Body Maintain</h5>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="exc-blog-post">
-                            <figure>
-                                <img src="images/service10.jpg" alt="">
-                            </figure>
-                            <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $89</h6>
-                               <a href="http://www.suvrentals.com.au"> <h5><img src="images/label.png" style="width: 30px;height: 30px; margin-right: 20px; margin-top: -5px;">Hire 7 Seater SUV</h5></a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="exc-blog-post">
-                            <figure>
-                                <img src="images/service1.jpg" alt="">
-                            </figure>
-                            <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $39</h6>
-                                <h5>Dent Removal</h5>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="exc-blog-post">
-                            <figure>
-                                <img src="images/service6.jpg" alt="">
-                            </figure>
-                            <div class="exc-post-header">
-                                <h6 class="starts-from">Total Free!</h6>
-                                <h5><a href="courtesy-car.php">Courtesy Car</a></h5>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
         </div>
     </div>
