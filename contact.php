@@ -9,13 +9,20 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Smash Repairs In Sydney">
-    <meta name="keywords" content="smash,smash repair,car repair,smash repairs,car smash repairs,
-        smashed car repair,vehicle repairs,smash and repair,car repair center,vehicle repair center,
-        panel beater,panelbeater,panel beating,car dent repair,car restoration,car body work,car body repair,
-        car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,
-        vehicle dent removal,dent repair">
-    <title>Orbella | Smash Repair Petersham Marrickville | (02) 9560 2301 </title>
+    <meta name="description" content="focus on delivering panel-beating services to each of our valued customers. We understand that your car is valuable to you and therefore we aim in providing superior service. We ensure that highest quality standards are always maintained, by utilizing original equipment from the manufacturer, replacement parts and paint technology that produce the highest quality">
+    <meta name="keywords" content="smash,smash repair,car repairs,car repair,smash repairs,car smash repairs,smashed car repair,vehicle repairs,smash and repair,car repair center,vehicle repair center,panel beater,panelbeater,panel beating,
+    car dent repair,car restoration,car body work,car body repair,car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,vehicle dent removal,dent repair,auto bodywork,car beating spray,spray painting,car spray,
+    car paint,car painting,auto body smash repairs,smashed car panel repair,smashed car window repair,auto repair mechanics,cost of car repairs,fixing cars,car service center,no extra fee,car repairs sydney, smash repairs sydney, car repair sydney, smash repair sydney
+    courtesy car for smash repair,courtesy car for car repair,trailer truck for smash repair,trailer truck for car repair,cheap smash repair,cheap smash repair marrickville,cheap smash repair inner city,cheap smash repair petersham,cheap smash repair sydney,
+    cheap car repair,cheap car repair petersham,cheap car repair marrickville,cheap car repair inner city,cheap car repair sydney,low price smash repair,low price smash repair petersham,low price smash repair marrickville,low price smash repair inner city,
+    low price smash repair sydney,low price car repair,low price car repair petersham,low price car repair marrickville,low price car repair inner city,low price car repair sydney,smash repair marrickville,smash repair inner city,smash repair tempe,smash repair wolli creek,
+    smash repair inner west,smash repair newtown,smash repair kingsgrove,smash repair rockdale,smash repair campsie,smash repair ashfield,smash repair arncliffe,smash repair earlwood,smash repair petersham,smash repair leichhardt,smash repair mascot,smash repair hurstville,
+    smash repair burwood,smash repair homebush,smash repair maroubra,car repair marrickville,car repair inner city,car repair tempe,car repair wolli creek,car repair inner west,car repair newtown,car repair kingsgrove,car repair rockdale,car repair campsie,car repair ashfield,
+    car repair arncliffe,car repair earlwood,car repair petersham,car repair leichhardt,car repair mascot,car repair hurstville,car repair burwood,smash repairs marrickville,smash repairs inner city,smash repairs tempe,smash repairs wolli creek,smash repairs inner west,smash repairs newtown,
+    smash repairs kingsgrove,smash repairs rockdale,smash repairs campsie,smash repairs ashfield,smash repairs arncliffe,smash repairs earlwood,smash repairs petersham,smash repairs leichhardt,smash repairs mascot,smash repairs hurstville,smash repairs burwood,smash repairs homebush,smash repairs maroubra,
+    car repairs marrickville,car repairs inner city,car repairs tempe,car repairs wolli creek,car repairs inner west,car repairs newtown,car repairs kingsgrove,car repairs rockdale,car repairs campsie,car repairs ashfield,car repairs arncliffe,car repairs earlwood,car repairs petersham,car repairs leichhardt,
+    car repairs mascot,car repairs hurstville,car repairs burwood,car repairs homebush,car repairs maroubra">
+    <title>Orbella | Smash Repair Petersham | Smash Repair Marrickville | (02) 9560 2301 </title>
     <!-- Stylesheets -->
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -97,7 +104,7 @@ session_start();
                 </ul>
                 <ul class="exc-nav-right">
                     <li >
-                        <a href="index.php#quote"><i class="fa fa-star"></i>Make An Appointment</a>
+                        <a href="index.php#quote"><i class="fa fa-star"></i>Request A Callback</a>
                     </li>
                 </ul>
             </nav>

@@ -15,7 +15,9 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />-->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="smash,smash repair,car repairs,car repair,smash repairs,car smash repairs,smashed car repair,vehicle repairs,smash and repair,car repair center,vehicle repair center,panel beater,panelbeater,panel beating,
+    <meta name="description" content="Orbella Smash Repairs pride themselves in offering quality and efficiency panel beating and Automotive painting in all vehicles including prestige models. We are conveniently located in the inner west of Sydney, six kilometers southwest of Sydney central business district.
+    Petersham Smash Repairs cater for all your panel beating, smash repair, car restoration, and car re-spraying needs">
+    <meta name="keywords" content="smash,smash repair,car repairs,car repair,smash repairs,car smash repairs,smashed car repair,vehicle repairs,smash and repair,car repair center,vehicle repair center,panel beater,panelbeater,panel beating,
     car dent repair,car restoration,car body work,car body repair,car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,vehicle dent removal,dent repair,auto bodywork,car beating spray,spray painting,car spray,
     car paint,car painting,auto body smash repairs,smashed car panel repair,smashed car window repair,auto repair mechanics,cost of car repairs,fixing cars,car service center,no extra fee,car repairs sydney, smash repairs sydney, car repair sydney, smash repair sydney
     courtesy car for smash repair,courtesy car for car repair,trailer truck for smash repair,trailer truck for car repair,cheap smash repair,cheap smash repair marrickville,cheap smash repair inner city,cheap smash repair petersham,cheap smash repair sydney,
@@ -112,7 +114,7 @@ session_start();
                 </ul>
                 <ul class="exc-nav-right">
                     <li >
-                        <a href="#quote"><i class="fa fa-star"></i>Make An Appointment</a>
+                        <a href="#quote"><i class="fa fa-star"></i>Request A Callback</a>
                     </li>
                 </ul>
             </nav>
@@ -184,7 +186,7 @@ session_start();
                                    name="mobile" id="mobile" placeholder="Phone Number" type="tel" required>
                         </div>
                         <div class="form-group col-md-4" style="margin-top: 20px; margin-bottom: 20px;">
-                                <button class="btn btn-block">Make An Appointment</button>
+                                <button class="btn btn-block">Request A Callback</button>
                         </div>
                     </div>
                     <?php if(isset($_SESSION['error'])) {?>
@@ -200,7 +202,7 @@ session_start();
             <div class="heading-cols">
                 <h1>Services <br />We Provide</h1>
                 <p class="text-justify">
-                    Petersham Smash Repairs Company offer smash repairs services for all luxury cars including BMW, Range Rover, Audi, Mercedes-Benz, and Porsche as well as high cars. Petersham Smash Repairs is located in the inner west of Sydney, six kilometers southwest of Sydney central business district.
+                    Petersham Smash Repairs promise professional and fast service every time, we bring quality and efficiency in every repair and we are committed to contributing to our community-based smash repairs.We are conveniently located in Petersham, a suburb the Inner West of Sydney, located six kilometres southwest of Sydney central business district, bordered by the suburbs of Leichhardt, Stanmore, Marrickville and Lewisham.
                 </p>
                 <div class="clearfix"></div>
             </div>

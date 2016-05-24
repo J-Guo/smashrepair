@@ -91,7 +91,7 @@
                 </ul>
                 <ul class="exc-nav-right">
                     <li >
-                        <a href="index.php#quote"><i class="fa fa-star"></i>Make An Appointment</a>
+                        <a href="index.php#quote"><i class="fa fa-star"></i>Request A Callback</a>
                     </li>
                 </ul>
             </nav>
@@ -118,9 +118,8 @@
                         <article class="services-detail">
                             <h2 class="entry-title text-left">Welcome to Petersham Smash Repairs</h2>
                             <div class="entry-content text-justify">
-                                <p style="font-size: 15px;">Petersham Smash Repairs pride themselves in offering quality and efficiency panel beating and Automotive painting in all vehicles including prestige models. We are conveniently located in the inner west of Sydney, six kilometers southwest of Sydney central business district. Petersham Smash Repairs cater for all your panel beating, smash repair, car restoration, and car re-spraying needs.  We focus on delivering panel-beating services to each of our valued customers. We understand that your car is valuable to you and therefore we aim in providing superior service. We ensure that highest quality standards are always maintained, by utilizing original equipment from the manufacturer, replacement parts and paint technology that produce the highest quality. </p>
-                                <p>We understand that having an accident can get frustrating and confusing experience. We have a team of highly experienced panel beaters and spray painters who will restore your vehicle to its pre-accident condition. Our experienced staff will guide you through all aspect of lodging a claim with your insurance company and making the whole process as smooth as possible. From a minor scratch to a major collision, Petersham Smash repairs are here to help!</p>
-                                <p>We also provide professional and affordable 24 hours towing services throughout Sydney.  We offer prompt quality services, towing and roadside assistance services. Weather your car break down on the roadside or involved in an accident, let Petersham Smash repairs be your guide and show you the road to recovery. <b>Try us TODAY!</b></p>
+                                <p style="font-size: 15px;">We provide smash repairs and pride ourselves in catering to each customer specific needs including panel beating, smash repair, car restoration, car spray painting, provide exceptional customer service, offer assistance and professional advice on processing insurance claims, helping you get back on the road as quick as possible is most important. </p>
+                                <p>We understand that having an accident can be more stressful and frustrating experience. We have a professional team of highly experienced panel beaters and spray painters who will restore your vehicle to its pre-accident condition. We utilizing original equipment from the manufacturer, replacement parts and paint technology with highest quality, and known to be highest quality standards for superior mechanical services. Our experienced staff will guide you through all aspect of lodging a claim with your insurance company and making the whole process as smooth as possible. From a minor scratch to a major collision, Petersham Smash repairs are here to help!</p>
                             </div><!-- .entry-content -->
                         </article>
                     </div>
@@ -129,7 +128,7 @@
             </div>
 
             <div class="visible-xs visible-sm" style="margin-top: 20px;">
-                <button class="btn btn-block" onclick="window.location.href='index.php'">Make An Appointment</button>
+                <button class="btn btn-block" onclick="window.location.href='index.php'">Request A Callback</button>
             </div>
 
 
