@@ -114,8 +114,8 @@
                             <div class="entry-content">
                                 <p class="text-justify">Petersham Smash Repairs specialize in all the aspects of panel beating and spray painting that is required to bring your vehicle back to its pre-accident condition including wheel alignment, welding, grinding, sanding, and repainting, whether the damage is only minor or substantial. </p>
                                 <ul class="minigallery two-col">
-                                    <li><img src="images/service1.jpg" alt="" style="height: 211px; width: 375px;"/></li>
-                                    <li><a href="#"><img src="images/service2.jpg" alt="" style="height: 211px; width: 375px;" /></a></li>
+                                    <li><img src="images/panel-beating1.jpg" alt="" style="height: 211px; width: 375px;"/></li>
+                                    <li><img src="images/panel-beating2.jpg" alt="" style="height: 211px; width: 375px;" /></li>
                                 </ul>
                                 <p class="text-justify">We have certified panel beaters who are highly experienced and qualified with the correct training and knowledge in order to ensure that all repairs are carried out to the highest standard.
                                 When you bring in your vehicle, one of our certified panel beater will assess your vehicle and determine where and how to perform the repair work. We will remove the parts that damaged and start working in your car using our mechanical, hydraulic and metalworking equipment.

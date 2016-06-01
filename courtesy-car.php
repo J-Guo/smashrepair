@@ -114,8 +114,8 @@
                             <div class="entry-content">
                                 <p class="text-justify">Petersham Smash repairs will be happy to provide you with a courtesy car to use throughout the repair process of your vehicle with no fees apply, as it is <b>FREE</b>.</p>
                                 <ul class="minigallery two-col">
-                                    <li><a href="#"><img src="images/service1.jpg" alt="" style="height: 211px; width: 375px;"/></a></li>
-                                    <li><a href="#"><img src="images/service2.jpg" alt="" style="height: 211px; width: 375px;" /></a></li>
+                                    <li><img src="images/courtesy-car2.jpg" alt="" style="height: 211px; width: 375px;"/></li>
+                                    <li><img src="images/courtesy-car1.jpg" alt="" style="height: 211px; width: 375px;" /></li>
                                 </ul>
                                 <p class="text-justify">As part of our commitment to outstanding service, we provide quality courtesy cars to minimize inconvenience and stress that arises from a non-fault accident by replacing your vehicle quickly and free of charge, so you can concentrate on the more important things. Our courtesy cars are comfortable and reliable, enabling your life to keep moving while we repair your vehicle. This vehicle includes Range Rover, BMW, Holden Captiva, Toyota, Audi, and Jeep. Enquire for more information.</p>
                             </div><!-- .entry-content -->

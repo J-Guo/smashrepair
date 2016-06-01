@@ -115,8 +115,8 @@
                                 <p class="text-justify">Our Spray-painting Professional will make your car look impeccable.
                                     We have a state of the art spray painting facility on premises, and our qualified spray painters can restore your vehicle paint back to its original factory condition. As part of our service, we professionally spray paint vehicles with an exact colour match of their existing paint colour. We use the best quality of paints in our repairs, ensuring quality for our customers’ vehicles.</p>
                                 <ul class="minigallery two-col">
-                                    <li><a href="#"><img src="images/service1.jpg" alt="" style="height: 211px; width: 375px;"/></a></li>
-                                    <li><a href="#"><img src="images/service2.jpg" alt="" style="height: 211px; width: 375px;" /></a></li>
+                                    <li><img src="images/spray-painting1.jpg" alt="" style="height: 211px; width: 375px;"/></li>
+                                    <li><img src="images/spray-painting2.jpg" alt="" style="height: 211px; width: 375px;" /></li>
                                 </ul>
                                 <p class="text-justify">Why not give us a call today and arrange a time to bring in your vehicle or one of our friendly staff can pick up your vehicle and bring in for repairs at our workshop. We welcome all types of work regardless of how big or small the job size can be.</p>
                             </div><!-- .entry-content -->
