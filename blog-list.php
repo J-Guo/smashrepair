@@ -11,7 +11,7 @@
         panel beater,panelbeater,panel beating,car dent repair,car restoration,car body work,car body repair,
         car dent removal,vehicle dent repair,vehicle restoration,vehicle body work,vehicle body repair,
         vehicle dent removal,dent repair">
-    <title>Orbella | Smash Repair Sydney | Panel Beating</title>
+    <title>Orbella | Smash Repair Sydney | Hire Car & Taxi Repair Specialist</title>
     <!-- Stylesheets -->
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +35,12 @@
         ga('send', 'pageview');
 
     </script>
+
+    <style>
+        .entry-content {
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
 <!-- Header -->
@@ -51,54 +57,55 @@
 </div>
 <!-- Main -->
 <main class="exc-main">
-    <div class="exc-page-content">
+    <div class="exc-page-content blog">
         <div class="container">
             <div class="exc-page-title">
-                <h1>Courtesy Car</h1>
+                <h1>BLOG</h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.php">Home</a></li>
+                    <li class="active">Blog</li>
+                </ol>
             </div>
-            <!-- Services Detail -->
-            <div class="exc-section">
-                <div class="row">
-                    <div class="col-md-8 col-sm-12 col-xs-12">
-                        <article class="services-detail">
-                            <h2 class="starts-from">Total Free!</h2>
-                            <div class="entry-content">
-                                <p class="text-justify">Petersham Smash repairs will be happy to provide you with a courtesy car to use throughout the repair process of your vehicle with no fees apply, as it is <b>FREE</b>.</p>
-                                <ul class="minigallery two-col">
-                                    <li><img src="images/courtesy-car2.jpg" alt="" style="height: 211px; width: 375px;"/></li>
-                                    <li><img src="images/courtesy-car1.jpg" alt="" style="height: 211px; width: 375px;" /></li>
-                                </ul>
-                                <p class="text-justify">As part of our commitment to outstanding service, we provide quality courtesy cars to minimize inconvenience and stress that arises from a non-fault accident by replacing your vehicle quickly and free of charge, so you can concentrate on the more important things. Our courtesy cars are comfortable and reliable, enabling your life to keep moving while we repair your vehicle. This vehicle includes Range Rover, BMW, Holden Captiva, Toyota, Audi, and Jeep. Enquire for more information.</p>
-                            </div><!-- .entry-content -->
-                        </article>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <!-- Widget Our Locations -->
-                        <div class="exc-free-quote services-page">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="exc-page-subheading">
-                                        <h2>Find Us</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="blog-listing-page">
+                        <ul class="blog-listing">
+                            <li>
+                                <div class="exc-blog-post">
+                                    <figure>
+                                        <a href="blog-detail.html"><img src="images/blog1.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="exc-post-header">
+                                        <div class="post-date"><i class="fa fa-calendar"></i>23/06/2016</div>
+                                        <h5><a href="blog-detail.html">Consectetur adipiscing elit. Suspendisse iaculis</a></h5>
                                     </div>
                                 </div>
-                                <div class="col-sm-12">
-                                    <div class="location-box">
-                                        <figure style="height:250px;">
-                                            <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgaLA8HKwEmsRHF70gPOWKFk&key=AIzaSyAomTWe6-_JXMoza7hm9olIQLZ8TEq5PdY" allowfullscreen></iframe>
-                                        </figure>
-                                        <address>
-                                            <span class="address">139 New Canterbury RD, Petersham NSW 2049</span>
-                                            <span class="phone-no"><i class="fa fa-phone"></i>0431858685</span>
-                                            <span class="email"><i class="fa fa-envelope"></i>info@orbellasmashrepairs.com.au</span>
-                                            <span class="worktime"><i class="fa fa-clock-o"></i>Mon - Sun: 9:00 AM - 7:00 PM</span>
-                                        </address>
+                            </li>
+                            <li>
+                                <div class="exc-blog-post">
+                                    <figure>
+                                        <a href="blog-detail.html"><img src="images/blog2.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="exc-post-header">
+                                        <div class="post-date"><i class="fa fa-calendar"></i>05/06/2016</div>
+                                        <h5><a href="blog-detail.html">Turpis et egestas convallis, nibh augue gravida ante</a></h5>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                            <li>
+                                <div class="exc-blog-post">
+                                    <figure>
+                                        <a href="blog-detail.html"><img src="images/blog3.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="exc-post-header">
+                                        <div class="post-date"><i class="fa fa-calendar"></i>27/05/2016</div>
+                                        <h5><a href="blog-detail.html">Vestibulum venenatis neque enim, efficitur semper</a></h5>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="clearfix"></div>
-                </div>
+
             </div>
         </div>
     </div>

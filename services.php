@@ -40,57 +40,8 @@
 <!-- Header -->
 <!-- Header -->
 <header class="exc-header">
-    <!-- Navbar -->
-    <div class="exc-navbar">
-        <div class="container">
-            <div class="exc-brand">
-                <a class="exc-logo" href="index.php">
-                    <img src="images/logo.png" alt="Auto Love" />
-                </a>
-                <ul class="exc-contact-info" style="margin-left: 20px;">
-                    <li class="phone-no">
-                        <i class="fa fa-phone"></i>
-                        <h6 class="info-title">Contact Us</h6>
-                        <span class="info-desc">0431858685</span>
-                    </li>
-                    <li class="opening-time">
-                        <i class="fa fa-clock-o"></i>
-                        <h6 class="info-title">Mon to Sun</h6>
-                        <span class="info-desc"> <span class="open-time">9:00am</span>  - <span class="close-time">7:00pm</span></span>
-                    </li>
-                    <li class="opening-time">
-                        <i class="fa fa-map-marker"></i>
-                        <h6 class="info-title">139 New Canterbury Rd</h6>
-                        <span class="info-desc">Petersham NSW 2049</span>
-                    </li>
-                </ul>
-                <a class="exc-menu-btn" href="#">
-                    <span class="menu-icon"></span>
-                </a>
-            </div>
-            <nav class="main-navigation">
-                <ul>
-                    <li class="dropdown mega-dropdown">
-                        <a  href="index.php">Home</a>
-                    </li>
-                    <li class="dropdown mega-dropdown">
-                        <a  href="about-us.php">About Us</a>
-                    </li>
-                    <li class="dropdown mega-dropdown">
-                        <a  href="services.php">Our Services</a>
-                    </li>
-                    <li class="dropdown mega-dropdown">
-                        <a  href="contact.php">Contact Us</a>
-                    </li>
-                </ul>
-                <ul class="exc-nav-right">
-                    <li >
-                        <a href="index.php#quote"><i class="fa fa-star"></i>Request A Callback</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <!-- Include Header -->
+    <?php include_once "commons/nav-header.html"; ?>
 </header>
 <!-- Header Ends -->
 
@@ -106,6 +57,10 @@
         <div class="container">
             <div class="exc-page-title">
                 <h1>Our Services</h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.php">Home</a></li>
+                    <li class="active">Services</li>
+                </ol>
             </div>
             <!-- Services Detail -->
             <div class="exc-section">

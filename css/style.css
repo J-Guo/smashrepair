@@ -3121,7 +3121,7 @@ a.btn-arrow {
 	float: left;
 }
 .blog-listing-page .blog-listing > li {
-	width: 50%;
+	width: 33%;
 	margin-top: 30px;
 }
 @media (max-width: 990px) {
