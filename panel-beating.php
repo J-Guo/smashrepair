@@ -110,7 +110,7 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-12 col-xs-12">
                         <article class="services-detail">
-                            <h2 class="starts-from">Starts From Just $60</h2>
+                            <h2 class="starts-from">Title Here</h2>
                             <div class="entry-content">
                                 <p class="text-justify">Petersham Smash Repairs specialize in all the aspects of panel beating and spray painting that is required to bring your vehicle back to its pre-accident condition including wheel alignment, welding, grinding, sanding, and repainting, whether the damage is only minor or substantial. </p>
                                 <ul class="minigallery two-col">

@@ -116,8 +116,8 @@
                                 <img src="images/service3.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $60</h6>
-                                <h5><a href="panel-beating.php">Panel Beating</a></h5>
+                                <h6 class="starts-from">Panel Beating</h6>
+                                <h5><a href="panel-beating.php">More Details</a></h5>
                             </div>
                         </div>
                     </li>
@@ -127,8 +127,8 @@
                                 <img src="images/service5.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $49</h6>
-                                <h5><a href="spray-painting.php">Spray Painting</a></h5>
+                                <h6 class="starts-from">Spray Painting</h6>
+                                <h5><a href="spray-painting.php">More Details</a></h5>
                             </div>
                         </div>
                     </li>
@@ -138,8 +138,8 @@
                                 <img src="images/service2.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $29</h6>
-                                <h5>Body Maintain</h5>
+                                <h6 class="starts-from">Body Maintain</h6>
+                                <h5>MORE DETAILS</h5>
                             </div>
                         </div>
                     </li>
@@ -149,8 +149,8 @@
                                 <img src="images/service10.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $89</h6>
-                               <a href="http://www.suvrentals.com.au"> <h5><img src="images/label.png" style="width: 30px;height: 30px; margin-right: 20px; margin-top: -5px;">Hire 7 Seater SUV</h5></a>
+                                <h6 class="starts-from">Hire 7 Seater SUV</h6>
+                               <a href="http://www.suvrentals.com.au"> <h5><img src="images/label.png" style="width: 30px;height: 30px; margin-right: 20px; margin-top: -5px;">START FROM $89!</h5></a>
                             </div>
                         </div>
                     </li>
@@ -160,8 +160,8 @@
                                 <img src="images/service1.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
-                                <h6 class="starts-from">Starts From Just $39</h6>
-                                <h5>Dent Removal</h5>
+                                <h6 class="starts-from">Dent Removal</h6>
+                                <h5>MORE DETAILS</h5>
                             </div>
                         </div>
                     </li>
@@ -171,8 +171,8 @@
                                 <img src="images/service6.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
-                                <h6 class="starts-from">Total Free!</h6>
-                                <h5><a href="courtesy-car.php">Courtesy Car</a></h5>
+                                <h6 class="starts-from">Courtesy Car</h6>
+                                <h5><a href="courtesy-car.php">Total Free!</a></h5>
                             </div>
                         </div>
                     </li>
