@@ -57,58 +57,55 @@
 </div>
 <!-- Main -->
 <main class="exc-main">
-    <div class="exc-page-content blog">
-        <div class="container">
-            <div class="exc-page-title">
-                <h1>BLOG</h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li class="active">Blog</li>
-                </ol>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="blog-listing-page">
-                        <ul class="blog-listing">
-                            <li>
-                                <div class="exc-blog-post">
-                                    <figure>
-                                        <a href="blog-detail.php"><img src="images/blog1.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="exc-post-header">
-                                        <div class="post-date"><i class="fa fa-calendar"></i>23/06/2016</div>
-                                        <h5><a href="blog-detail.php">Consectetur adipiscing elit. Suspendisse iaculis</a></h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="exc-blog-post">
-                                    <figure>
-                                        <a href="blog-detail.php"><img src="images/blog2.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="exc-post-header">
-                                        <div class="post-date"><i class="fa fa-calendar"></i>05/06/2016</div>
-                                        <h5><a href="blog-detail.php">Turpis et egestas convallis, nibh augue gravida ante</a></h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="exc-blog-post">
-                                    <figure>
-                                        <a href="blog-detail.php"><img src="images/blog3.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="exc-post-header">
-                                        <div class="post-date"><i class="fa fa-calendar"></i>27/05/2016</div>
-                                        <h5><a href="blog-detail.php">Vestibulum venenatis neque enim, efficitur semper</a></h5>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+    <main class="exc-main">
+        <div class="exc-page-content blog-detail">
+            <div class="container">
+                <div class="exc-page-title">
+                    <h1>How to Do Vehicle Maintenance</h1>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li class="active">Vehicle Maintenance</li>
+                    </ol>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <article class="entry-post">
 
+                            <ul class="post-opts">
+                                <li class="post-date"><i class="fa fa-user"></i>Orbella Smash Repairs</li>
+                                <li class="post-date"><i class="fa fa-calendar"></i>23/06/2016</li>
+                                <li class="post-categories">
+                                    <i class="fa fa-tags"></i>
+                                    Body Shop, Maintenance
+                                </li>
+                            </ul>
+
+                            <div class="entry-content">
+                                <ul class="minigallery three-col">
+                                    <li><img src="images/blog1.jpg" alt="" /></li>
+                                    <li><img src="images/blog2.jpg" alt="" /></li>
+                                    <li><img src="images/blog3.jpg" alt="" /></li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur vel mi ac dapibus. Suspendisse quis augue fringilla, imperdiet dui in, pulvinar purus. Sed id nisl non nisi ullamcorper tempor. Aliquam ac nunc sit amet lorem lacinia volutpat. Nullam nec arcu ac massa auctor blandit. Donec ut malesuada est, nec vulputate orci. Praesent ac lectus feugiat, pellentesque nisl vel, porta magna. Nam quis imperdiet elit, quis fringilla nisl. Nunc ultricies, turpis at cursus suscipit, ipsum sapien vestibulum urna, vel ultrices mi ipsum ac leo. Suspendisse a pharetra massa. Phasellus in neque urna. Ut in suscipit mi.</p>
+                                <p>Proin non dapibus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent condimentum accumsan ante, quis interdum ex pretium eget. Aliquam nec libero ac nunc aliquam cursus. Fusce laoreet, mauris ut rhoncus maximus, purus mauris ultrices quam, vel placerat metus erat quis metus. Aliquam sed sollicitudin risus. Phasellus felis nibh, ullamcorper eu blandit ut, suscipit non sapien. Nullam blandit eleifend suscipit. Aliquam eu neque id sapien efficitur auctor at in lorem. Proin auctor ullamcorper orci, ut fringilla nulla porta ac. Maecenas sollicitudin hendrerit rutrum.</p>
+                                <blockquote>
+                                    <p>Proin non dapibus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent condimentum accumsan ante, quis interdum ex pretium eget. Aliquam nec libero ac nunc aliquam cursus. Fusce laoreet, mauris ut rhoncus maximus, purus mauris ultrices quam.</p>
+                                </blockquote>
+                                <h3>Pillar 1: Oil</h3>
+                                <p>Sed bibendum ultricies tellus ut suscipit. Vestibulum euismod leo at justo auctor eleifend. Donec eleifend tortor dui, vitae tincidunt arcu dapibus sed. Nullam aliquam lorem eu ligula iaculis, vel rhoncus est posuere. Nunc semper odio non tristique fringilla. Quisque tempus nunc cursus congue gravida. Vestibulum nec augue egestas, tincidunt leo quis, cursus tortor. Cras condimentum dolor tortor, viverra feugiat sem fringilla in. Proin erat tortor, tristique mattis condimentum eu, dictum sit amet enim.</p>
+                                <ul class="minigallery singl-col">
+                                    <li><img src="images/blog-big.jpg" alt="" /></li>
+                                </ul>
+                                <p>Nunc bibendum et quam ut auctor. Praesent et egestas magna. Vestibulum in fermentum erat. Maecenas iaculis turpis sit amet semper dapibus. Aliquam erat volutpat. Nulla vitae urna fermentum, ornare dolor a, pretium est. Praesent fringilla eleifend turpis, non mattis nibh dapibus at. Nam sed mi a magna ultricies consectetur at in massa. Maecenas felis velit, faucibus et quam ullamcorper, tincidunt eleifend nisl. Nunc auctor et urna non porttitor. Etiam tempor, eros ut iaculis semper, sem nulla euismod justo, a pulvinar leo augue facilisis felis. Nulla in purus erat.</p>
+                                <p>Integer erat ex, luctus dapibus vestibulum et, pretium at purus. In mauris lorem, tempor sit amet porta eget, lacinia sed ante. Ut semper ante dapibus nulla iaculis lobortis. Donec accumsan scelerisque nunc. Curabitur finibus faucibus diam quis vestibulum. Sed ex tellus, ornare ut viverra non, fringilla sit amet velit. Nunc sit amet sodales sapien, vitae molestie est. Maecenas purus diam, mattis id varius non, tempor vitae lectus. Nulla est odio, bibendum at nulla at, dictum eleifend nunc. Vivamus nunc erat, porttitor sed tellus sit amet, consectetur gravida massa. Aliquam elementum sollicitudin urna, nec dignissim eros gravida quis. Etiam gravida turpis sed lorem porttitor, interdum tempor nibh iaculis.</p>
+                            </div><!-- .entry-content -->
+                        </article><!-- #post-## -->
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 </main>
 <!-- Main Ends -->
 

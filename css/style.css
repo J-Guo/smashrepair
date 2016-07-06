@@ -2340,7 +2340,7 @@ a.btn-arrow {
 .s1-layer-big {
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	font-size: 60px;
+	font-size: 86px;
 	text-shadow: 0px 3px rgba(0,0,0,1);
 	margin-bottom: 30px;
 	padding-bottom: 38px;
@@ -3254,7 +3254,7 @@ a.btn-arrow {
 	padding-bottom: 25px;
 }
 .blog-detail .entry-post {
-	margin-top: 50px;
+	margin-top: 10px;
 }
 .entry-right {
 	position: absolute;
@@ -3288,8 +3288,8 @@ a.btn-arrow {
 	list-style: none;
 	padding: 6px 0;
 	margin-bottom: 30px;
-	border-top: #e3e3e3 solid 1px;
-	border-bottom: #e3e3e3 solid 1px;
+	/*border-top: #e3e3e3 solid 1px;*/
+	/*border-bottom: #e3e3e3 solid 1px;*/
 }
 .post-opts li {
 	display: inline;
@@ -3467,7 +3467,7 @@ a.btn-arrow {
 .minigallery {
 	list-style: none;
 	padding: 0;
-	float: left;
+	/*float: left;*/
 	margin: 30px 0 30px -1px;
 }
 .minigallery li {

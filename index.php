@@ -76,20 +76,19 @@ session_start();
 <!-- Main Slider -->
 <div id="exc-slider">
     <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap">
-        <div data-src="images/slides/slide1.jpg">
+        <div data-src="images/slides/s1.jpg">
             <div class="camera_caption fadeIn">
                 <div class="slide-caption slide-1-caption">
-                    <div class="s1-layer-sm">Hire CAR & TAXI</div>
-                    <div class="s1-layer-big">Repair Specialist </div>
+                    <div class="s1-layer-big">Hire CAR & TAXI Repair Specialist</div>
                 </div>
             </div>
         </div>
-        <div data-src="images/slides/slide2.jpg">
+        <div data-src="images/slides/s2.jpg">
             <div class="camera_caption fadeIn">
                 <div class="slide-caption">
                     <div class="s2-layer-md">Lifetime</div>
                     <div class="s2-layer-lg">Guarantee</div>
-                    <div class="s2-layer-sm">On All Repairs </div>
+                    <div class="s2-layer-md">On All Repairs </div>
                 </div>
             </div>
         </div>
@@ -98,7 +97,7 @@ session_start();
                 <div class="slide-caption slide-1-caption">
                     <div class="s2-layer-md">Courtesy Car for Smash Repair</div>
                     <div class="s2-layer-lg">No Any</div>
-                    <div class="s2-layer-sm">Extra Fees</div>
+                    <div class="s2-layer-md">Extra Fees</div>
 <!--                    <div class="s1-layer-button">-->
 <!--                        <a href="#" name="appointmentLink" class="btn-group" data-toggle="modal" data-target="#appointmentModal">-->
 <!--                            <span class="btn">Make An Appointment</span>-->
