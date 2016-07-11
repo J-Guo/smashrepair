@@ -62,8 +62,16 @@
                     <li class="active">Services</li>
                 </ol>
             </div>
+
             <!-- Services Detail -->
             <div class="exc-section">
+
+                        <div class="entry-content" style="margin-top:-40px;">
+                            <p style="font-size: 15px;">We’re one of the most reliable and affordable smash repairservice providers and we pride ourselves with over 20 years of experience in handling different models of vehicles in Petersham, MarrickVille, Newtown, Arncliffe, Earlwood and Sydney’s Inner Citysmash repairs. We believe that no job is too big or too small. We strive to offer the best services to our customers by utilizing the latest technology that has been certified by top manufacturers (BMW, Volkswagen, GM, and Mercedes-Benz) </p>
+                            <h2 style="margin-bottom: 20px;">OUR SERVICES INCLUDE</h2>
+                            <p></p>
+                        </div><!-- .entry-content -->
+
                 <ul class="blog-listing">
                     <li>
                         <div class="exc-blog-post">

@@ -3480,6 +3480,7 @@ a.btn-arrow {
 }
 .minigallery.two-col li {
 	width: 50%;
+	margin-bottom: 25px; /* Service Detail Page */
 }
 .minigallery.singl-col li {
 	width: 100%;

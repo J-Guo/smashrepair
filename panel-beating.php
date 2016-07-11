@@ -66,17 +66,16 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-12 col-xs-12">
                         <article class="services-detail">
-                            <h2 class="starts-from">Title Here</h2>
+                            <h2 class="starts-from">Strive to surpass customer satisfaction</h2>
                             <div class="entry-content">
-                                <p class="text-justify">Petersham Smash Repairs specialize in all the aspects of panel beating and spray painting that is required to bring your vehicle back to its pre-accident condition including wheel alignment, welding, grinding, sanding, and repainting, whether the damage is only minor or substantial. </p>
+                                <p class="text-justify">Petersham Smash Repairs are a licensed car repair company offering professional panel beating services in Petersham, MarrickVille, Arncliffe, Newtown, Earlwood and Inner City Sydney.We have top-notch, competent, and accredited panel beaters who pride themselves with modern panel beating techniques. They have all received up-to-date skills to carry out professional general vehicle repairs. This is aimed at restoring your car back to its original state in an efficient and safe manner </p>
                                 <ul class="minigallery two-col">
                                     <li><img src="images/panel-beating1.jpg" alt="" style="height: 211px; width: 375px;"/></li>
                                     <li><img src="images/panel-beating2.jpg" alt="" style="height: 211px; width: 375px;" /></li>
                                 </ul>
-                                <p class="text-justify">We have certified panel beaters who are highly experienced and qualified with the correct training and knowledge in order to ensure that all repairs are carried out to the highest standard.
-                                When you bring in your vehicle, one of our certified panel beater will assess your vehicle and determine where and how to perform the repair work. We will remove the parts that damaged and start working in your car using our mechanical, hydraulic and metalworking equipment.
-                                If you are looking for good quality smash repairs in Petersham, you have come to the right place. Give us a call and learn more about our services that we provide here at Petersham Smash Repairs.
-                                </p>
+                                <p class="text-justify">We have successfully handled different types of vehicles for different clients: from BMW, Jeep to Range Rover. We strive to use the acceptable panel beatingtools and techniques so that your vehicle regains its original shape without any further damage.</p>
+                                <h3>Our Technicians</h3>
+                                <p>At Petersham Smash repairs wehighly emphasize on practical training skills andeducation. We pride ourselves with the finest panel beaters who possess vast experiences and training. It’s imperative that a panel beater has the right skills, excellent knowledge, and enough experience to deliver the best services. Therefore, it’s vital that you contract a reputable company with a commendable track record and certified servicemen. Whether you’re in Petersham, Newtown, Arncliffe, Marrickville,Earlwood or anywhere in the Inner City of Sydney, you can readily access our panel beating services. Remember, our services are affordable. To ensure that your life continues normally, you’ll be provided with an absolutely FREE courtesy car.</p>
                             </div><!-- .entry-content -->
                         </article>
                     </div>
