@@ -87,7 +87,7 @@
                     <li>
                         <div class="exc-blog-post">
                             <figure>
-                                <img src="images/service5.jpg" alt="">
+                                <img src="images/service2.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
                                 <h6 class="starts-from">Spray Painting</h6>
@@ -98,7 +98,7 @@
                     <li>
                         <div class="exc-blog-post">
                             <figure>
-                                <img src="images/service2.jpg" alt="">
+                                <img src="images/service5.jpg" alt="">
                             </figure>
                             <div class="exc-post-header">
                                 <h6 class="starts-from">Body Maintain</h6>

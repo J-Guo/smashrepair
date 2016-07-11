@@ -63,12 +63,17 @@
                         <article class="services-detail">
                             <h2 class="starts-from">Total Free!</h2>
                             <div class="entry-content">
-                                <p class="text-justify">Petersham Smash repairs will be happy to provide you with a courtesy car to use throughout the repair process of your vehicle with no fees apply, as it is <b>FREE</b>.</p>
+                                <p class="text-justify">Petersham Smash Repairs have an exceptional personal touch with its clients. Your problem is our problem. During the repair process, we’ll provide you with an absolutely free car so that you are able to move on with your life as usual. None of your travel activities/businesses will be compromised at all.</p>
                                 <ul class="minigallery two-col">
                                     <li><img src="images/courtesy-car2.jpg" alt="" style="height: 211px; width: 375px;"/></li>
                                     <li><img src="images/courtesy-car1.jpg" alt="" style="height: 211px; width: 375px;" /></li>
                                 </ul>
-                                <p class="text-justify">As part of our commitment to outstanding service, we provide quality courtesy cars to minimize inconvenience and stress that arises from a non-fault accident by replacing your vehicle quickly and free of charge, so you can concentrate on the more important things. Our courtesy cars are comfortable and reliable, enabling your life to keep moving while we repair your vehicle. This vehicle includes Range Rover, BMW, Holden Captiva, Toyota, Audi, and Jeep. Enquire for more information.</p>
+                                <h3>Free of Charge</h3>
+                                <p class="text-justify">It’s not our pleasure seeing you walk; we provide FREE courtesy vehicles. Why shouldn’t you take advantage of this amazing courtesy car strategy that consistently keeps you moving as your vehicle gets repaired? </p>
+                                <h3>Our Courtesy Cars</h3>
+                                <p>We have an array of cars, small to medium, manual and automatic. Our vehicle range includes Range Rover, BMW, Holden Captive, Toyota, Audi and Jeep. Enquire for more information.</p>
+                                <h3>Our commitment</h3>
+                                <p>We really value our customers, and it’s our duty to give them the best services. Remember, the use of the courtesy vehicle is subject to specific terms & conditions of the agreement between your and Petersham Smash Repairs. Contact us today for a free quote!</p>
                             </div><!-- .entry-content -->
                         </article>
                     </div>

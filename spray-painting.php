@@ -61,15 +61,16 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-12 col-xs-12">
                         <article class="services-detail">
-                            <h2 class="starts-from">Starts From Just $29</h2>
+                            <h2 class="starts-from">Use quality genuine tools and spare parts</h2>
                             <div class="entry-content">
-                                <p class="text-justify">Our Spray-painting Professional will make your car look impeccable.
-                                    We have a state of the art spray painting facility on premises, and our qualified spray painters can restore your vehicle paint back to its original factory condition. As part of our service, we professionally spray paint vehicles with an exact colour match of their existing paint colour. We use the best quality of paints in our repairs, ensuring quality for our customers’ vehicles.</p>
+                                <p class="text-justify">If you need high-quality spray painting services, Petersham Smash Repairs are the best providers. We offer exceptional car spray painting services at affordable costs. Whether you’re in Petersham, Earlwood, Newtown, Arncliffe, Marrickville orSydney’s Inner City, you can readily access our professional repairs. All our spray painters have accredited certifications and have undergone extensive training on contemporary spray painting approaches to ensure perfect painting at all times.</p>
                                 <ul class="minigallery two-col">
                                     <li><img src="images/spray-painting1.jpg" alt="" style="height: 211px; width: 375px;"/></li>
                                     <li><img src="images/spray-painting2.jpg" alt="" style="height: 211px; width: 375px;" /></li>
                                 </ul>
-                                <p class="text-justify">Why not give us a call today and arrange a time to bring in your vehicle or one of our friendly staff can pick up your vehicle and bring in for repairs at our workshop. We welcome all types of work regardless of how big or small the job size can be.</p>
+                                <p class="text-justify">Our vast experience blended with incredible expertise has greatly boosted our visibility. We value our clients and it’s our joy to always provide quality car spray painting services to them. If you consider us, then be sure of a flawless painting job at an affordable price.  Our main focus is to provide services that fully satisfy customers while establishing a human-friendly interface. We’ll make sure that your car’s painting is durable and classy.</p>
+                                <h3>Spray Painting Technologies</h3>
+                                <p>To foster our service credibility, we have adopted emergent spray painting technologies. We use Glasurit paint, a top-quality brand that makes cars shine brilliantly. It’s hard to find any other paint that can give the quality of finish that’s achievable with Glasurit paint; which has been meticulously tested to guarantee its capability to withstand harsh conditions. Your vehicle will be returned to you in a totally different condition. You’ll be surprised at how precisely we will merge its gloss with the finest color match.</p>
                             </div><!-- .entry-content -->
                         </article>
                     </div>
