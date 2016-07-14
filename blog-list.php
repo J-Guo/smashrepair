@@ -67,46 +67,48 @@
                 </ol>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <div class="blog-listing-page">
-                        <ul class="blog-listing">
-                            <li>
-                                <div class="exc-blog-post">
-                                    <figure>
-                                        <a href="blog-detail.php"><img src="images/blog1.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="exc-post-header">
-                                        <div class="post-date"><i class="fa fa-calendar"></i>23/06/2016</div>
-                                        <h5><a href="blog-detail.php">Consectetur adipiscing elit. Suspendisse iaculis</a></h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="exc-blog-post">
-                                    <figure>
-                                        <a href="blog-detail.php"><img src="images/blog2.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="exc-post-header">
-                                        <div class="post-date"><i class="fa fa-calendar"></i>05/06/2016</div>
-                                        <h5><a href="blog-detail.php">Turpis et egestas convallis, nibh augue gravida ante</a></h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="exc-blog-post">
-                                    <figure>
-                                        <a href="blog-detail.php"><img src="images/blog3.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="exc-post-header">
-                                        <div class="post-date"><i class="fa fa-calendar"></i>27/05/2016</div>
-                                        <h5><a href="blog-detail.php">Vestibulum venenatis neque enim, efficitur semper</a></h5>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+<!--                <div class="col-md-12">-->
+<!--                    <div class="blog-listing-page">-->
+<!--                        <ul class="blog-listing">-->
+<!--                            <li>-->
+<!--                                <div class="exc-blog-post">-->
+<!--                                    <figure>-->
+<!--                                        <a href="blog-detail.php"><img src="images/blog1.jpg" alt=""></a>-->
+<!--                                    </figure>-->
+<!--                                    <div class="exc-post-header">-->
+<!--                                        <div class="post-date"><i class="fa fa-calendar"></i>23/06/2016</div>-->
+<!--                                        <h5><a href="blog-detail.php">Consectetur adipiscing elit. Suspendisse iaculis</a></h5>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <div class="exc-blog-post">-->
+<!--                                    <figure>-->
+<!--                                        <a href="blog-detail.php"><img src="images/blog2.jpg" alt=""></a>-->
+<!--                                    </figure>-->
+<!--                                    <div class="exc-post-header">-->
+<!--                                        <div class="post-date"><i class="fa fa-calendar"></i>05/06/2016</div>-->
+<!--                                        <h5><a href="blog-detail.php">Turpis et egestas convallis, nibh augue gravida ante</a></h5>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <div class="exc-blog-post">-->
+<!--                                    <figure>-->
+<!--                                        <a href="blog-detail.php"><img src="images/blog3.jpg" alt=""></a>-->
+<!--                                    </figure>-->
+<!--                                    <div class="exc-post-header">-->
+<!--                                        <div class="post-date"><i class="fa fa-calendar"></i>27/05/2016</div>-->
+<!--                                        <h5><a href="blog-detail.php">Vestibulum venenatis neque enim, efficitur semper</a></h5>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!---->
+<!--            </div>-->
 
-            </div>
+                <h2>Coming Soon...</h2>
         </div>
     </div>
 </main>
